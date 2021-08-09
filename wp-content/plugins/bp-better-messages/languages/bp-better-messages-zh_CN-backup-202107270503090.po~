@@ -1,0 +1,2440 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: BP Better Messages\n"
+"POT-Creation-Date: 2021-07-15 00:27+0300\n"
+"PO-Revision-Date: 2021-07-27 04:54+0000\n"
+"Last-Translator: \n"
+"Language-Team: 简体中文\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: bp-better-messages.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: zh_CN\n"
+"X-Loco-Version: 2.5.3; wp-5.8"
+
+#: addons/calls.php:135 addons/calls.php:199 addons/calls.php:557
+#: bp-better-messages.php:417 inc/strings.php:6
+msgid "Audio Call"
+msgstr "音频通话"
+
+#: addons/calls.php:151 addons/calls.php:217 addons/calls.php:547
+#: bp-better-messages.php:416 inc/strings.php:7
+msgid "Video Call"
+msgstr "视频电话"
+
+#: addons/calls.php:299 addons/calls.php:361 inc/strings.php:8
+#, php-format
+msgid "Audio call accepted <span class=\"bpbm-call-duration\">(%s)</span>"
+msgstr "已接受音频通话<span class=\"bpbm-call-duration\">(%s)</span>"
+
+#: addons/calls.php:318 addons/calls.php:359 inc/strings.php:9
+#, php-format
+msgid "Video call accepted <span class=\"bpbm-call-duration\">(%s)</span>"
+msgstr ""
+"已接受视频通话<span class=\"bpbm-call-duration\">(%s)</span>\n"
+
+#: addons/calls.php:422 inc/strings.php:10
+msgid "I tried to make audio call, but you were offline"
+msgstr "我尝试进行音频通话，但您处于离线状态"
+
+#: addons/calls.php:441 inc/strings.php:11
+msgid "I tried to make video call, but you were offline"
+msgstr "我尝试进行视频通话，但您处于离线状态"
+
+#: addons/calls.php:483 inc/strings.php:12
+#, php-format
+msgid "Missed audio call <span class=\"bpbm-call-duration\">(%s)</span>"
+msgstr "错过的音频通话<span class=\"bpbm-call-duration\">(%s)</span>"
+
+#: addons/calls.php:502 inc/strings.php:13
+#, php-format
+msgid "Missed video call <span class=\"bpbm-call-duration\">(%s)</span>"
+msgstr "错过的视频通话<span class=\"bpbm-call-duration\">(%s)</span>"
+
+#: addons/calls.php:592 addons/calls.php:646 bp-better-messages.php:396
+#: inc/strings.php:14 inc/strings.php:25
+msgid "Incoming Call"
+msgstr "来电"
+
+#: addons/calls.php:593 addons/calls.php:647 inc/strings.php:15
+#: inc/strings.php:26
+msgid "Calling..."
+msgstr "呼叫..."
+
+#: addons/calls.php:598 addons/calls.php:610 addons/calls.php:622
+#: inc/strings.php:16
+msgid "Switch Camera"
+msgstr "开关摄像头"
+
+#: addons/calls.php:600 addons/calls.php:611 addons/calls.php:624
+#: inc/strings.php:17
+msgid "Disable Video"
+msgstr "禁用视频"
+
+#: addons/calls.php:601 addons/calls.php:612 addons/calls.php:625
+#: inc/strings.php:18
+msgid "Enable Video"
+msgstr "启用视频"
+
+#: addons/calls.php:603 addons/calls.php:614 addons/calls.php:627
+#: addons/calls.php:653 addons/calls.php:660 addons/calls.php:666
+#: inc/strings.php:19
+msgid "Disable Microphone"
+msgstr "禁用麦克风"
+
+#: addons/calls.php:604 addons/calls.php:615 addons/calls.php:628
+#: addons/calls.php:654 addons/calls.php:661 addons/calls.php:667
+#: inc/strings.php:20
+#, fuzzy
+msgid "Enable Microphone"
+msgstr "使麦克风"
+
+#: addons/calls.php:605 addons/calls.php:655 inc/strings.php:21
+msgid "Cancel"
+msgstr "取消"
+
+#: addons/calls.php:608 addons/calls.php:658 bp-better-messages.php:401
+#: inc/strings.php:22
+msgid "Answer"
+msgstr "答案"
+
+#: addons/calls.php:617 addons/calls.php:663 bp-better-messages.php:402
+#: inc/strings.php:23
+msgid "Reject"
+msgstr "拒绝"
+
+#: addons/calls.php:630 addons/calls.php:669 inc/strings.php:24
+msgid "End call"
+msgstr "结束呼叫"
+
+#: addons/files.php:142 inc/strings.php:33
+msgid "Voice Message"
+msgstr "语音信息"
+
+#: addons/files.php:152
+msgid "attachments"
+msgstr "附件"
+
+#: addons/files.php:401
+msgid "Add attachment"
+msgstr "添加附件"
+
+#: addons/files.php:437
+msgid "You can only upload %{smart_count} file"
+msgstr "您只能上传 %{smart_count} 个文件"
+
+#: addons/files.php:438
+msgid "You can only upload %{smart_count} files"
+msgstr "您只能上传 %{smart_count} 个文件"
+
+#: addons/files.php:441
+msgid "You have to select at least %{smart_count} file"
+msgstr "您必须至少选择 %{smart_count} 个文件"
+
+#: addons/files.php:442
+msgid "You have to select at least %{smart_count} files"
+msgstr "您必须至少选择 %{smart_count} 个文件"
+
+#: addons/files.php:444
+msgid "This file exceeds maximum allowed size of"
+msgstr "文件体积超过所允许的最大限制"
+
+#: addons/files.php:445
+msgid "You can only upload"
+msgstr "你只能上传"
+
+#: addons/files.php:446
+msgid "Connection with Uppy Server failed"
+msgstr "与Uppy服务器连接失败"
+
+#: addons/files.php:471
+msgid "Send Now"
+msgstr "现在发送"
+
+#: addons/files.php:472
+msgid "Uploading"
+msgstr "正在上传"
+
+#: addons/files.php:473
+msgid "Upload complete"
+msgstr "上传完成"
+
+#: addons/files.php:474
+msgid "Upload failed"
+msgstr "上传失败"
+
+#: addons/files.php:475
+msgid "Please press Retry to upload again"
+msgstr "请按重试重新上传"
+
+#: addons/files.php:476
+msgid "Paused"
+msgstr "已暂停"
+
+#: addons/files.php:477
+msgid "Error"
+msgstr "错误"
+
+#: addons/files.php:478
+msgid "Retry"
+msgstr "重试"
+
+#: addons/files.php:479
+msgid "Press to retry"
+msgstr "按下重试"
+
+#: addons/files.php:480
+msgid "Retry upload"
+msgstr "重试上传"
+
+#: addons/files.php:481
+msgid "Resume upload"
+msgstr "继续上传"
+
+#: addons/files.php:482
+msgid "Cancel upload"
+msgstr "取消上传"
+
+#: addons/files.php:483
+msgid "Pause upload"
+msgstr "暂停上传"
+
+#: addons/files.php:485
+msgid "Upload %{smart_count} file"
+msgstr "上传 %{smart_count} 文件"
+
+#: addons/files.php:486
+msgid "Upload %{smart_count} files"
+msgstr "上传 %{smart_count} 个文件"
+
+#: addons/files.php:489
+msgid "Upload +%{smart_count} file"
+msgstr "上传 +%{smart_count} 文件"
+
+#: addons/files.php:490
+msgid "Upload +%{smart_count} files"
+msgstr "上传 +%{smart_count} 个文件"
+
+#: addons/files.php:492
+msgid "Select files to upload"
+msgstr "上传选择文件"
+
+#: addons/files.php:493
+msgid "Close Modal"
+msgstr "关闭弹窗"
+
+#: addons/files.php:494
+msgid "Upload"
+msgstr "上传"
+
+#: addons/files.php:495
+msgid "Import files from"
+msgstr "从以下地方导入文件"
+
+#: addons/files.php:496
+msgid "Uppy Dashboard Window (Press escape to close)"
+msgstr "Uppy仪表板窗口（按Esc键关闭）"
+
+#: addons/files.php:497
+msgid "Uppy Dashboard"
+msgstr "Uppy仪表板"
+
+#: addons/files.php:498
+msgid "Link copied to clipboard."
+msgstr "链接已复制到剪贴板。"
+
+#: addons/files.php:499
+msgid "Copy the URL below"
+msgstr "复制下面的网址"
+
+#: addons/files.php:500
+msgid "Done"
+msgstr "完成"
+
+#: addons/files.php:501
+#, fuzzy
+msgid "Drop files here, paste, import from one of the locations above or"
+msgstr "下降的文件在这里，贴、进口从一个位置的上方或"
+
+#: addons/files.php:502
+#, fuzzy
+msgid "Drop files here, paste or"
+msgstr "下降的文件在这里，贴或"
+
+#: addons/files.php:503
+#, fuzzy
+msgid "browse"
+msgstr "浏览"
+
+#: addons/files.php:504
+#, fuzzy
+msgid "File progress: upload speed and ETA"
+msgstr "文件取得进展：上传的速度和ETA"
+
+#: addons/files.php:505
+msgid "Number of selected files"
+msgstr "选定的文件数量"
+
+#: addons/files.php:506
+msgid "Upload all new files"
+msgstr "上传所有新文件"
+
+#: addons/files.php:507
+msgid "No files were added from empty folder"
+msgstr "没有从空文件夹添加文件"
+
+#: addons/files.php:509
+msgid "Added %{smart_count} file from %{folder}"
+msgstr "从 %{folder} 中添加了 %{smart_count} 文件"
+
+#: addons/files.php:510
+msgid "Added %{smart_count} files from %{folder}"
+msgstr "从 %{folder} 中添加了 %{smart_count} 个文件"
+
+#: addons/files.php:512
+msgid "Remove file"
+msgstr "删除文件"
+
+#: addons/files.php:795
+msgid "You can`t upload files."
+msgstr "你不能上传文件。"
+
+#: addons/files.php:810
+msgid "This file type are not allowed to be uploaded:"
+msgstr "这种文件类型不允许被上传："
+
+#: addons/files.php:821
+#, php-format
+msgid "%s is too large! Please upload file up to %d MB."
+msgstr "%s 体积占的太大了。请将文件体积缩减至%dMB以下。"
+
+#: addons/files.php:854
+msgid "Your request is empty."
+msgstr "你的请求是空的。"
+
+#: addons/giphy.php:52 addons/stickers.php:65 inc/ajax.php:1254
+msgid "Security error while sending message"
+msgstr "发送消息时出现安全错误"
+
+#: addons/giphy.php:77 addons/stickers.php:84 inc/ajax.php:1296
+#: inc/ajax.php:1300
+msgid "You can`t reply to this thread."
+msgstr "你不能响应这个会话。"
+
+#: addons/giphy.php:265 addons/giphy.php:342 addons/stickers.php:139
+msgid "Search results will display here"
+msgstr "搜索结果将显示在这里"
+
+#: addons/giphy.php:275
+msgid "GIFs"
+msgstr "Gif"
+
+#: addons/giphy.php:283
+msgid "Trending"
+msgstr "热点趋势"
+
+#: addons/giphy.php:284 addons/stickers.php:136 addons/stickers.php:160
+#: inc/functions.php:1813 views/layout-group.php:51 views/layout-index.php:41
+#: views/layout-index.php:83 views/layout-index.php:86
+#: views/layout-index.php:147 views/layout-index.php:150
+#: views/layout-search.php:19 views/layout-search.php:22
+#: views/layout-thread.php:41
+msgid "Search"
+msgstr "搜索"
+
+#: addons/giphy.php:286 addons/stickers.php:166 bp-better-messages.php:419
+#: inc/mini-list.php:98 views/layout-new.php:9 views/layout-thread.php:217
+msgid "Close"
+msgstr "关闭"
+
+#: addons/giphy.php:323 addons/giphy.php:327 inc/notifications.php:248
+msgid "GIF"
+msgstr "GIF"
+
+#: addons/stickers.php:151
+msgid "Stickers"
+msgstr "表情"
+
+#: addons/stickers.php:159
+msgid "Latest"
+msgstr "最新的"
+
+#: addons/stickers.php:190
+msgid "You have not used any stickers yet"
+msgstr "你没有使用任何表情呢"
+
+#: addons/stickers.php:192
+msgid "No stickers found"
+msgstr "没有发现贴纸"
+
+#: addons/stickers.php:217 inc/notifications.php:243
+msgid "Sticker"
+msgstr "表情"
+
+#: bp-better-messages.php:389
+msgid "typing..."
+msgstr "正在输入……"
+
+#: bp-better-messages.php:390 views/layout-bulk.php:32
+msgid "Sent"
+msgstr "发送"
+
+#: bp-better-messages.php:391
+#, fuzzy
+msgid "Delivered"
+msgstr "交付"
+
+#: bp-better-messages.php:392 inc/functions.php:735
+msgid "Seen"
+msgstr "已阅"
+
+#: bp-better-messages.php:393
+#, php-format
+msgid "You have %s new messages"
+msgstr "你有 %s 条新消息"
+
+#: bp-better-messages.php:394
+msgid "Are you sure you want to delete this message?"
+msgstr "你确定要删除这条信息吗？"
+
+#: bp-better-messages.php:395
+msgid "Connection dropped! Most likely the user closed the browser"
+msgstr "连接中断! 很可能是用户关闭了浏览器"
+
+#: bp-better-messages.php:397
+msgid "User rejected your call"
+msgstr "用户拒绝了您的呼叫"
+
+#: bp-better-messages.php:398
+msgid "User is offline at the moment. Try later."
+msgstr "用户目前处于离线状态。请稍后再试。"
+
+#: bp-better-messages.php:399
+msgid "Webcam not available"
+msgstr "摄像头不可用"
+
+#: bp-better-messages.php:400
+msgid "Microphone not available"
+msgstr "麦克风不可用"
+
+#: bp-better-messages.php:403
+msgid "You are currently in call, are you sure you want to leave this page?"
+msgstr "你正在呼叫。你确定你想离开这个页面？"
+
+#: bp-better-messages.php:404
+msgid ""
+"This browser not support video calls feature yet. Please use another browser."
+msgstr "浏览器不支持视频通话的功能。 请使用其他浏览器。"
+
+#: bp-better-messages.php:405
+#, fuzzy
+msgid ""
+"Enable browser push notifications to receive private messages when you are "
+"offline?"
+msgstr "启用浏览器推动通知到收到的私人消息，当你离线?"
+
+#: bp-better-messages.php:406 views/layout-user-settings.php:64
+msgid "Enable"
+msgstr "启用"
+
+#: bp-better-messages.php:407
+msgid "Dismiss"
+msgstr "知道了"
+
+#: bp-better-messages.php:408
+#, fuzzy
+msgid "Are you sure you want to mute this thread?"
+msgstr "你确定你想要静音这个线？"
+
+#: bp-better-messages.php:409
+#, fuzzy
+msgid "Are you sure you want to leave this thread?"
+msgstr "你确定你想离开这个线？"
+
+#: bp-better-messages.php:410
+#, fuzzy
+msgid "Are you sure you want to unmute this thread?"
+msgstr "你确定想要取消这个线？"
+
+#: bp-better-messages.php:411
+#, fuzzy
+msgid ""
+"Are you sure you want to delete this thread and all its messages forever? "
+"(This action is irreversible)"
+msgstr "你确定要删除这个线及其所有消息吗？ (这一行动是不可逆的)"
+
+#: bp-better-messages.php:412
+msgid ""
+"Are you sure you want to delete all messages in this chat? (This action is "
+"irreversible)"
+msgstr "您确定要删除此聊天记录中的所有信息吗？(这个动作是不可逆的)"
+
+#: bp-better-messages.php:413
+#, fuzzy, php-format
+msgid "Exclude %s from this thread?"
+msgstr "排除%s从这个线？"
+
+#: bp-better-messages.php:414
+#, fuzzy, php-format
+msgid "Exclude %s from this chat room?"
+msgstr "排除%s从这个聊天室?"
+
+#: bp-better-messages.php:415
+msgid ""
+"Realtime connection not established. Please wait until you will be connected "
+"to realtime server and try again"
+msgstr "实时连接未建立。请等待，直到你连接到实时服务器，并再次尝试。"
+
+#: bp-better-messages.php:418
+msgid "Maximize"
+msgstr "最大化"
+
+#: bp-better-messages.php:420
+msgid "Edit message"
+msgstr "编辑消息"
+
+#: bp-better-messages.php:421 inc/functions.php:748
+msgid "Reply"
+msgstr "回复"
+
+#: bp-better-messages.php:422
+msgid "Edit"
+msgstr "编辑"
+
+#: bp-better-messages.php:423
+msgid "Copy text"
+msgstr "复制文本"
+
+#: bp-better-messages.php:424 inc/functions.php:1134 views/layout-bulk.php:70
+msgid "Delete"
+msgstr "删除"
+
+#: bp-better-messages.php:425
+msgid "Open"
+msgstr "打开"
+
+#: bp-better-messages.php:478
+msgid "Use the TAB key to insert emoji faster"
+msgstr "使用 TAB 键更快地插入表情符号"
+
+#: bp-better-messages.php:479
+msgid "SEARCH"
+msgstr "搜索"
+
+#: bp-better-messages.php:480
+msgid "Diversity"
+msgstr "多样性"
+
+#: bp-better-messages.php:481
+msgid "Recent"
+msgstr "最近"
+
+#: bp-better-messages.php:482
+msgid "Smileys & People"
+msgstr "笑脸&人物"
+
+#: bp-better-messages.php:483
+msgid "Animals & Nature"
+msgstr "动物和大自然"
+
+#: bp-better-messages.php:484
+msgid "Food & Drink"
+msgstr "食品与饮料"
+
+#: bp-better-messages.php:485
+msgid "Activity"
+msgstr "活动"
+
+#: bp-better-messages.php:486
+msgid "Travel & Places"
+msgstr "旅行和地点"
+
+#: bp-better-messages.php:487
+msgid "Objects"
+msgstr "对象"
+
+#: bp-better-messages.php:488
+msgid "Symbols"
+msgstr "符号"
+
+#: bp-better-messages.php:489
+#, fuzzy
+msgid "Flags"
+msgstr "标志"
+
+#: inc/ajax.php:122
+#, fuzzy
+msgid "Exclude user from thread"
+msgstr "排除用户线"
+
+#: inc/ajax.php:183 inc/mini-list.php:92
+#, fuzzy
+msgid "Friends"
+msgstr "朋友"
+
+#: inc/ajax.php:196 inc/ajax.php:431 inc/mini-list.php:146
+msgid "User profile"
+msgstr "用户个人资料"
+
+#: inc/ajax.php:235 inc/component-group.php:38 inc/component.php:37
+#: inc/hooks.php:248 inc/mini-list.php:89 views/layout-settings.php:241
+msgid "Messages"
+msgstr "消息"
+
+#: inc/ajax.php:329 inc/functions.php:714 inc/functions.php:1105
+#: inc/hooks.php:285 views/layout-thread.php:83
+msgid "Deleted User"
+msgstr "删除的用户"
+
+#: inc/ajax.php:339 inc/ajax.php:345 inc/functions.php:1115
+#: inc/functions.php:1121 views/layout-chat-room.php:45
+#: views/layout-chat-room.php:75 views/layout-group.php:96
+#: views/layout-group.php:124 views/layout-thread.php:95
+#: views/layout-thread.php:106 views/layout-thread.php:203
+msgid "Participants"
+msgstr "参与者"
+
+#: inc/ajax.php:352
+#, php-format
+msgid "%s matches"
+msgstr "%s与其匹配。"
+
+#: inc/ajax.php:369 inc/mini-list.php:95 views/layout-settings.php:242
+#, fuzzy
+msgid "Groups"
+msgstr "组"
+
+#: inc/ajax.php:388 inc/mini-list.php:185
+#, fuzzy
+msgid "Group homepage"
+msgstr "小组的网页"
+
+#: inc/ajax.php:417
+msgid "Members"
+msgstr "成员"
+
+#: inc/ajax.php:448 inc/mini-list.php:122
+msgid "Nothing found"
+msgstr "未找到"
+
+#: inc/ajax.php:547 inc/ajax.php:851 inc/ajax.php:1680 inc/ajax.php:1706
+msgid "Security error while deleting messages"
+msgstr "删除消息时出现安全错误"
+
+#: inc/ajax.php:579
+msgid "Deleted successfully"
+msgstr "删除成功"
+
+#: inc/ajax.php:594
+msgid "Security error while changing thread option"
+msgstr "更改线程选项时出现安全错误"
+
+#: inc/ajax.php:602
+msgid "You can`t change options for this thread"
+msgstr "你不能改变这个会话的选项"
+
+#: inc/ajax.php:613 inc/ajax.php:673
+msgid "Saved successfully"
+msgstr "成功保存"
+
+#: inc/ajax.php:626
+msgid "Thread subject changed"
+msgstr "会话受改变的"
+
+#: inc/ajax.php:652
+msgid "Security error while changing user option"
+msgstr "更改用户选项时出现安全错误"
+
+#: inc/ajax.php:662
+msgid "You can`t change options for this user"
+msgstr "你不能为这个用户改变选项"
+
+#: inc/ajax.php:746
+msgid "You can`t add members to this thread"
+msgstr "你不能邀请新成员进入这个会话"
+
+#: inc/ajax.php:786
+msgid "You can`t exclude members from this thread"
+msgstr "你不能从这个会话中移除成员"
+
+#: inc/ajax.php:792
+msgid "Not found member in this thread"
+msgstr "没有在这个会话中发现成员"
+
+#: inc/ajax.php:878
+msgid "This message can`t be edited"
+msgstr "该消息不能编辑"
+
+#: inc/ajax.php:908 inc/ajax.php:1304
+msgid "Your message was empty."
+msgstr "你的信息是空的。"
+
+#: inc/ajax.php:937
+msgid "Message not found"
+msgstr "找不到消息"
+
+#: inc/ajax.php:1354
+msgid "Security error while starting new thread"
+msgstr "启动新线程时出现安全错误"
+
+#: inc/ajax.php:1499
+msgid "Security error while deleting thread"
+msgstr "删除线程时出现安全错误"
+
+#: inc/ajax.php:1510
+msgid "You can`t delete this thread"
+msgstr "你不能删除这个会话"
+
+#: inc/ajax.php:1633
+msgid "Security error while recovering thread"
+msgstr "恢复线程时出现安全错误"
+
+#: inc/bulk.php:97
+msgid "Admin disabled replies to this thread"
+msgstr "管理员禁止回复此对话"
+
+#: inc/bulk.php:261
+msgid "Message is empty"
+msgstr "消息是空的"
+
+#: inc/bulk.php:265
+msgid "No users was selected"
+msgstr "没有选择用户"
+
+#: inc/chats.php:89
+msgid "Leave chat room"
+msgstr "离开聊天室"
+
+#: inc/chats.php:163
+msgid "Chat Rooms"
+msgstr "聊天室"
+
+#: inc/chats.php:164
+msgid "Chat Room"
+msgstr "聊天室"
+
+#: inc/chats.php:165 inc/chats.php:166
+msgid "Create new Chat Room"
+msgstr "创建新的聊天室"
+
+#: inc/chats.php:167
+msgid "Edit Chat Room"
+msgstr "编辑聊天室"
+
+#: inc/chats.php:168
+msgid "New Chat Room"
+msgstr "新的聊天室"
+
+#: inc/chats.php:191
+msgid "Chat settings"
+msgstr "聊天设置"
+
+#: inc/chats.php:313 views/layout-settings.php:327
+msgid "Messages styling"
+msgstr "消息的样式"
+
+#: inc/chats.php:318 inc/chats.php:335
+msgid "Default"
+msgstr "默认"
+
+#: inc/chats.php:320 views/layout-settings.php:333
+msgid "Standard"
+msgstr "标准"
+
+#: inc/chats.php:322 views/layout-settings.php:337
+msgid "Modern"
+msgstr "现代"
+
+#: inc/chats.php:329 views/layout-settings.php:346
+msgid "Modern messages layout"
+msgstr "现代信息的布局"
+
+#: inc/chats.php:339 views/layout-settings.php:352
+msgid "My messages at left side"
+msgstr "我的消息在左侧"
+
+#: inc/chats.php:343 views/layout-settings.php:356
+msgid "My messages at right side"
+msgstr "我的消息在右侧"
+
+#: inc/chats.php:347 views/layout-settings.php:360
+msgid "All messages at left side"
+msgstr "所有消息在左侧"
+
+#: inc/chats.php:457
+msgid "You must to join this chat room to send messages"
+msgstr "你必须加入这个聊天室才能发送消息"
+
+#: inc/chats.php:459
+msgid "Join chat room"
+msgstr "加入聊天室"
+
+#: inc/chats.php:461
+msgid "You are not allowed to join this chat room"
+msgstr "你不能加入这个聊天室"
+
+#: inc/chats.php:471
+msgid "You are not allowed to reply in this chat room"
+msgstr "你不允许在这个聊天室中回复"
+
+#: inc/component-group.php:114
+#, fuzzy
+msgid "Group Messages"
+msgstr "小组的消息"
+
+#: inc/component-group.php:118
+msgid "Enabled"
+msgstr "已启用"
+
+#: inc/component-group.php:123
+msgid "Disabled"
+msgstr "已禁用"
+
+#: inc/component.php:113
+#, php-format
+msgctxt "Messages list sub nav"
+msgid "Messages <span class=\"%s bp-better-messages-unread count\">%s</span>"
+msgstr "消息 <span class=\"%s bp-better-messages-unread count\">%s</span>"
+
+#: inc/component.php:125
+msgid "Threads"
+msgstr "任务"
+
+#: inc/component.php:134 views/layout-index.php:77 views/layout-index.php:141
+msgid "Starred"
+msgstr "星标"
+
+#: inc/component.php:143 inc/functions.php:1807 inc/mini-list.php:79
+#: views/layout-bulk.php:9 views/layout-group.php:46 views/layout-index.php:35
+#: views/layout-index.php:72 views/layout-index.php:136
+#: views/layout-thread.php:35
+msgid "New Thread"
+msgstr "新会话"
+
+#: inc/component.php:163
+#, php-format
+msgctxt "Messages list sub nav"
+msgid "Messages <span class=\"%s\">%s</span>"
+msgstr "消息 <span class=\"%s\">%s</span>"
+
+#: inc/component.php:165
+msgctxt "Messages list sub nav"
+msgid "Messages"
+msgstr "消息"
+
+#: inc/functions.php:887
+#, php-format
+msgid "Profile picture of %s"
+msgstr "%s 的头像"
+
+#: inc/functions.php:1143
+msgid "Thread was deleted."
+msgstr "会话已被删除。"
+
+#: inc/functions.php:1144
+msgid "Recover?"
+msgstr "恢复？"
+
+#: inc/functions.php:1372
+msgid "Thread not found."
+msgstr "没有找到会话。"
+
+#: inc/functions.php:1380 inc/functions.php:1450
+msgid "Access restricted"
+msgstr "通行禁止。"
+
+#: inc/functions.php:1685
+msgid "Get WebSocket License"
+msgstr "获得WebSocket许可证"
+
+#: inc/functions.php:1689
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Download</a> and install Premium version of "
+"plugin to use this feature"
+msgstr "<a href=\"%s\" target=\"_blank\">下载</a> 并安装进阶版本的插件以使用这一特征"
+
+#: inc/functions.php:1737
+msgid "My profile"
+msgstr "我的档案"
+
+#: inc/functions.php:1779 inc/options.php:169
+msgid "Settings"
+msgstr "设置"
+
+#: inc/functions.php:1795 views/layout-bulk.php:424
+#: views/layout-chat-room.php:161 views/layout-group.php:210
+#: views/layout-new.php:83 views/layout-search.php:45
+#: views/layout-starred.php:35 views/layout-thread.php:288
+#: views/layout-user-settings.php:145
+msgid "Tap to open messages"
+msgstr "点击打开信息"
+
+#: inc/functions.php:1813 inc/mini-list.php:134 inc/mini-list.php:164
+#: views/layout-group.php:51 views/layout-index.php:41
+#: views/layout-thread.php:41
+msgid "Search..."
+msgstr "搜索..."
+
+#: inc/hooks.php:411
+#, php-format
+msgid "You cant start new thread now. Please wait %s seconds."
+msgstr "你不能开始新的会话。 请等待%s秒钟。"
+
+#: inc/hooks.php:443
+msgid "Your message was not sent. User muted this thread."
+msgstr "你的消息不能发送。 用户静音了这个会话。"
+
+#: inc/hooks.php:456
+#, fuzzy
+msgid "Delete thread and all messages"
+msgstr "删除线和所有消息"
+
+#: inc/hooks.php:456
+#, fuzzy
+msgid "Delete thread"
+msgstr "删除线"
+
+#: inc/hooks.php:466
+#, fuzzy
+msgid "Delete all messages in this thread"
+msgstr "删除所有消息在这个线程"
+
+#: inc/hooks.php:468
+msgid "Delete all messages in this chat"
+msgstr "删除该聊天中的所有信息"
+
+#: inc/hooks.php:472
+msgid "Clear messages"
+msgstr "清除信息"
+
+#: inc/hooks.php:484
+msgid "Unmute thread notifications"
+msgstr "取消禁音会话通知"
+
+#: inc/hooks.php:484
+msgid "Unmute thread"
+msgstr "取消禁音会话"
+
+#: inc/hooks.php:486
+msgid "Mute thread notifications"
+msgstr "静音会话通知"
+
+#: inc/hooks.php:486
+msgid "Mute thread"
+msgstr "静音会话"
+
+#: inc/hooks.php:498
+msgid "Block user"
+msgstr "屏蔽用户"
+
+#: inc/hooks.php:511 views/layout-thread.php:211
+msgid "Add new participants"
+msgstr "添加新的参与者"
+
+#: inc/hooks.php:515
+msgid "Leave thread"
+msgstr "离开会话"
+
+#: inc/hooks.php:566
+msgid "You don't have sufficient balance to start new thread"
+msgstr "您没有足够的空间来启动新会话"
+
+#: inc/hooks.php:591
+msgid "You don't have sufficient balance to reply"
+msgstr "你没有足够的余额来回复"
+
+#: inc/hooks.php:628
+#, php-format
+msgid "Left \"%s\""
+msgstr "离开\"%s\""
+
+#: inc/hooks.php:630
+#, php-format
+msgid "Joined \"%s\""
+msgstr "已加入\"%s\""
+
+#: inc/hooks.php:635
+msgid "This message was deleted."
+msgstr "该消息已被删除。"
+
+#: inc/hooks.php:660 inc/hooks.php:734
+#, php-format
+msgctxt "Messages list sub nav"
+msgid "Messages <span class=\"%s bp-better-messages-unread\">%s</span>"
+msgstr "消息 <span class=\"%s bp-better-messages-unread\">%s</span>"
+
+#: inc/hooks.php:675 inc/hooks.php:685 inc/hooks.php:729 inc/hooks.php:1561
+#: inc/shortcodes.php:54
+msgid "Private Message"
+msgstr "私信"
+
+#: inc/hooks.php:704
+msgid "You need to login to have access to profiles."
+msgstr "你需要登录后才能访问资料。"
+
+#: inc/hooks.php:714
+msgid "This user does not exist."
+msgstr "这个用户并不存在。"
+
+#: inc/hooks.php:773 inc/hooks.php:781
+msgid "Your membership does not allow to use messages"
+msgstr "您的会员资格不允许使用消息"
+
+#: inc/hooks.php:1164
+msgid "You can start conversation only with 1 user per thread"
+msgstr "你只能在每个会话中和1个用户对话"
+
+#: inc/hooks.php:1194
+msgid "You were blocked by recipient"
+msgstr "你被收件人屏蔽了"
+
+#: inc/hooks.php:1315
+msgid "You must become friends to send messages"
+msgstr "你必须成为对方的朋友才能发送信息"
+
+#: inc/hooks.php:1355
+#, php-format
+msgid "You already have threads with %s"
+msgstr "你已经和%s在一个会话中了"
+
+#: inc/hooks.php:1376
+#, php-format
+msgid "%s not on your friends list"
+msgstr "%s不在你的好友列表中。"
+
+#: inc/hooks.php:1526
+msgid "Every Fifteen Minutes"
+msgstr "每十五分钟"
+
+#: inc/hooks.php:1531
+msgid "Every Minute"
+msgstr "每一分钟"
+
+#: inc/hooks.php:1539
+msgid "BP Better Messages Notifications Interval"
+msgstr "BP更好的消息通知时间间隔"
+
+#. translators: do not remove {} brackets or translate its contents.
+#: inc/install.php:17 inc/notifications.php:90
+msgid "[{{{site.name}}}] You have unread messages: {{subject}}"
+msgstr "[{{{site.name}}}] 你有以下未读信息：{{subject}}"
+
+#. translators: do not remove {} brackets or translate its contents.
+#: inc/install.php:19 inc/notifications.php:92
+msgid ""
+"You have unread messages: &quot;{{subject}}&quot;\n"
+"\n"
+"{{{messages.html}}}\n"
+"\n"
+"<a href=\"{{{thread.url}}}\">Go to the discussion</a> to reply or catch up "
+"on the conversation."
+msgstr ""
+"您有未读消息：“{{subject}}” \n"
+"{{{messages.html}}} \n"
+"<a href=\"{{{thread.url}}}\">转到讨论</a>以回复或跟进对话。"
+
+#. translators: do not remove {} brackets or translate its contents.
+#: inc/install.php:21 inc/notifications.php:94
+msgid ""
+"You have unread messages: \"{{subject}}\"\n"
+"\n"
+"{{messages.raw}}\n"
+"\n"
+"Go to the discussion to reply or catch up on the conversation: {{{thread.url}"
+"}}"
+msgstr ""
+"您有未读消息：“{{subject}}” \n"
+"{{messages.raw}} \n"
+"进入讨论回复或跟进对话：{{{thread.url}}}"
+
+#: inc/install.php:25 inc/notifications.php:98
+msgid "A member has unread private messages."
+msgstr "一个成员有未读的私聊信息。"
+
+#: inc/mini.php:37 inc/mini.php:39 inc/strings.php:27
+msgid "Minimize thread"
+msgstr "缩小会话"
+
+#: inc/notifications.php:279
+#, php-format
+msgid "%s wrote:"
+msgstr "%s写了："
+
+#: inc/notifications.php:331
+#, php-format
+msgctxt "Email notification header for non BuddyPress websites"
+msgid "You have unread messages: \"%s\""
+msgstr "你有未读的信息：\"%s\""
+
+#: inc/notifications.php:449
+#, php-format
+msgid "Hi %s,"
+msgstr "嗨 %s，"
+
+#: inc/notifications.php:452
+#, php-format
+msgid ""
+"<a href=\"%s\">Go to the discussion</a> to reply or catch up on the "
+"conversation."
+msgstr "<a href=\"%s\">一起来讨论</a>这个话题"
+
+#: inc/options.php:58
+msgid "Your limit for replies is exceeded"
+msgstr "已超出您的回复限制"
+
+#: inc/options.php:60
+msgid "You are not allowed to start new threads"
+msgstr "你不允许启动新的会话"
+
+#: inc/options.php:63
+msgid "You are not allowed to reply"
+msgstr "你不允许答复"
+
+#: inc/options.php:65
+msgid "Message hidden"
+msgstr "隐藏消息"
+
+#. Plugin Name of the plugin/theme
+#: inc/options.php:158 views/layout-settings.php:238
+msgid "BP Better Messages"
+msgstr "BP更好的消息"
+
+#: inc/options.php:159 inc/options.php:168
+msgid "Better Messages"
+msgstr "BP更好的消息"
+
+#: inc/premium.php:488 inc/strings.php:3
+#, php-format
+msgid "New message from %s"
+msgstr "来自%s的新消息"
+
+#: inc/premium.php:489 inc/strings.php:4
+#, php-format
+msgid "You have new message from %s"
+msgstr "你有来自 %s 的消息"
+
+#: inc/premium.php:825 inc/strings.php:30
+msgctxt "User status"
+msgid "Online"
+msgstr "在线"
+
+#: inc/premium.php:830 inc/strings.php:29
+msgctxt "User status"
+msgid "Away"
+msgstr "离开"
+
+#: inc/premium.php:835 inc/strings.php:28
+msgctxt "User status"
+msgid "Do not disturb"
+msgstr "请勿打扰"
+
+#: inc/premium.php:836
+msgctxt "User status description"
+msgid "You will not receive sound notifications"
+msgstr "您将不会收到声音通知"
+
+#: inc/strings.php:34
+msgid "Record Voice Message"
+msgstr "录制语音信息"
+
+#: views/layout-bulk.php:15
+msgid "Reports"
+msgstr "报告"
+
+#: views/layout-bulk.php:30 views/layout-bulk.php:150 views/layout-new.php:30
+msgid "Subject"
+msgstr "主题"
+
+#: views/layout-bulk.php:31
+msgid "Sender"
+msgstr "发送者"
+
+#: views/layout-bulk.php:33
+msgid "Read"
+msgstr "阅读"
+
+#: views/layout-bulk.php:34
+msgid "Date"
+msgstr "日期"
+
+#: views/layout-bulk.php:35
+msgid "Disable Reply"
+msgstr "禁止回复"
+
+#: views/layout-bulk.php:75
+#, fuzzy
+msgid "No reports yet."
+msgstr "没有报告。"
+
+#: views/layout-bulk.php:86
+msgid "Send To:"
+msgstr "发送到："
+
+#: views/layout-bulk.php:91
+msgid "All Users"
+msgstr "所有用户"
+
+#: views/layout-bulk.php:95
+msgid "Users with Role"
+msgstr "用户角色"
+
+#: views/layout-bulk.php:112
+#, fuzzy
+msgid "Group"
+msgstr "小组"
+
+#: views/layout-bulk.php:124
+msgid "Users selected"
+msgstr "被选择的用户"
+
+#: views/layout-bulk.php:128
+msgid "Options"
+msgstr "选项"
+
+#: views/layout-bulk.php:133
+msgid "Disallow reply to this message"
+msgstr "不允许回复这个消息"
+
+#: views/layout-bulk.php:137
+#, fuzzy
+msgid "Hide this thread from your thread list"
+msgstr "隐藏这个线从你的线清单"
+
+#: views/layout-bulk.php:138
+msgid ""
+"If you are messaging to many users better to hide new threads from your "
+"thread list."
+msgstr "如果您要向许多用户发送消息，最好从线程列表中隐藏新线程。"
+
+#: views/layout-bulk.php:142
+msgid "Add all recipients to one thread"
+msgstr "将所有收件人添加至一个列表"
+
+#: views/layout-bulk.php:157 views/layout-new.php:42
+msgid "Message"
+msgstr "消息"
+
+#: views/layout-bulk.php:159 views/layout-chat-room.php:122
+#: views/layout-group.php:171 views/layout-new.php:45
+#: views/layout-thread.php:253
+msgid "Write your message"
+msgstr "想说什么？"
+
+#: views/layout-bulk.php:168
+msgid "Start Messaging"
+msgstr "开始写一个消息"
+
+#: views/layout-bulk.php:294
+msgid "Security error"
+msgstr "安全错误"
+
+#: views/layout-bulk.php:297
+msgid "Users can`t reply to this message anymore."
+msgstr "用户不可以回答这个消息。"
+
+#: views/layout-bulk.php:299
+#, fuzzy
+msgid "Users can reply to this message now."
+msgstr "用户可以回答这个消息。"
+
+#: views/layout-bulk.php:312
+#, php-format
+msgid "Are you sure you want to delete %d thread(s) and report?"
+msgstr "你确定你要删除%d条消息并举报吗？"
+
+#: views/layout-chat-room.php:33 views/layout-group.php:83
+#: views/layout-search.php:15 views/layout-starred.php:14
+#: views/layout-thread.php:75 views/layout-user-settings.php:20
+msgid "Back"
+msgstr "返回"
+
+#: views/layout-chat-room.php:55 views/layout-group.php:105
+#: views/layout-thread.php:116
+msgid "More"
+msgstr "更多"
+
+#: views/layout-chat-room.php:98
+msgid "Only participants can see this chat room messages"
+msgstr "只有参与者可以看到这个聊天室里的消息"
+
+#: views/layout-chat-room.php:103 views/layout-group.php:152
+#: views/layout-thread.php:234
+msgid "Write the message to start conversation"
+msgstr "写下信息，开始对话"
+
+#: views/layout-chat-room.php:127 views/layout-group.php:176
+#: views/layout-new.php:53 views/layout-thread.php:258
+msgid "Send Message"
+msgstr "发送消息"
+
+#: views/layout-index.php:107 views/layout-index.php:171
+msgid "No messages yet!"
+msgstr "还没有消息呢！"
+
+#: views/layout-index.php:109 views/layout-index.php:121
+#: views/layout-index.php:173
+msgid "Start new conversation"
+msgstr "开始新的对话"
+
+#: views/layout-index.php:118
+msgid "Select thread to display messages"
+msgstr "选择会话以显示消息"
+
+#: views/layout-index.php:120
+msgid "or"
+msgstr "或"
+
+#: views/layout-new.php:12
+msgid "Mass Message"
+msgstr "群发消息"
+
+#: views/layout-new.php:19
+msgid "Send To (Username or Friend's Name)"
+msgstr "发送至(用户名或朋友的名字)"
+
+#: views/layout-search.php:39
+msgid "No messages found"
+msgstr "没有找到任何消息"
+
+#: views/layout-settings.php:240
+msgid "General"
+msgstr "一般"
+
+#: views/layout-settings.php:243
+msgid "Mobile"
+msgstr "移动"
+
+#: views/layout-settings.php:244
+msgid "Attachments"
+msgstr "附件"
+
+#: views/layout-settings.php:245 views/layout-user-settings.php:27
+msgid "Notifications"
+msgstr "Notifications"
+
+#: views/layout-settings.php:246
+msgid "GIFs & Stickers"
+msgstr "Gif和表情"
+
+#: views/layout-settings.php:247
+msgid "Restrictions"
+msgstr "限制"
+
+#: views/layout-settings.php:248
+msgid "Sounds"
+msgstr "声音"
+
+#: views/layout-settings.php:249
+#, fuzzy
+msgid "Calls"
+msgstr "电话"
+
+#: views/layout-settings.php:250
+msgid "Customization"
+msgstr "定制"
+
+#: views/layout-settings.php:251
+msgid "Shortcodes"
+msgstr "短代码"
+
+#: views/layout-settings.php:252
+msgid "Export/Import"
+msgstr "导出/导入"
+
+#: views/layout-settings.php:263 views/layout-settings.php:269
+msgid "Refresh mechanism"
+msgstr "刷新机制"
+
+#: views/layout-settings.php:270
+msgid "AJAX"
+msgstr "Ajax"
+
+#: views/layout-settings.php:274
+msgid "WebSocket"
+msgstr "WebSocket"
+
+#: views/layout-settings.php:285 views/layout-settings.php:291
+#: views/layout-settings.php:306 views/layout-settings.php:400
+msgid "Thread Refresh Interval"
+msgstr "会话刷新时间间隔"
+
+#: views/layout-settings.php:286
+msgid "Ajax check interval on open thread"
+msgstr "在开放线程上的Ajax检查间隔"
+
+#: views/layout-settings.php:300
+msgid "Site Refresh Interval"
+msgstr "网站刷新时间间隔"
+
+#: views/layout-settings.php:301
+msgid "Ajax check interval on other sites pages"
+msgstr "其他站点页面上的 Ajax 检查间隔"
+
+#: views/layout-settings.php:314
+msgid "Enable Encryption"
+msgstr "启用加密"
+
+#: views/layout-settings.php:315
+#, fuzzy
+msgid ""
+"Encrypts all sensitive content before transfer to websocket server and "
+"decrypt on client site with special secret keys not known by our side."
+msgstr "加密所有的敏感内容之前转移到websocket服务器和解客户的网站具有特殊的秘密钥匙不知道我们身边。"
+
+#: views/layout-settings.php:369
+msgid "Modern messages roundness"
+msgstr "现代信息圆度"
+
+#: views/layout-settings.php:370
+#, fuzzy
+msgid "Bigger value will result to more rounded borders"
+msgstr "更大的价值将会导致更全面的边界"
+
+#: views/layout-settings.php:379
+msgid "User Statuses"
+msgstr "用户的状态"
+
+#: views/layout-settings.php:380
+msgid "Allow users to set their status: Online, Away or Do not disturb"
+msgstr "允许用户设置他们的状态：在线、离开或请勿打扰"
+
+#: views/layout-settings.php:394
+msgid "Number of Messages"
+msgstr "消息的数量"
+
+#: views/layout-settings.php:395
+msgid ""
+"Number of Messages per request on user open thread or loading old messages "
+"through ajax"
+msgstr "用户打开线程或通过 ajax 加载旧消息的每个请求的消息数"
+
+#: views/layout-settings.php:407
+msgid "Better Messages Location"
+msgstr "BP更好的消息位置"
+
+#: views/layout-settings.php:408
+msgid "Choose the page where Better Messages will be located"
+msgstr "选择信息框所在的页面"
+
+#: views/layout-settings.php:427
+msgid "Show in BuddyPress profile"
+msgstr "显示在BuddyPress的档案中"
+
+#: views/layout-settings.php:456
+msgid "Show in Asgaros Forum Profile"
+msgstr "显示在Asgaros论坛简介"
+
+#: views/layout-settings.php:460
+msgid "Show in WooCommerce My Account"
+msgstr "展示WooCommerce的我的账户中"
+
+#: views/layout-settings.php:474
+#, php-format
+msgid ""
+"You can use <code>%s</code> shortcode to place chat in specific place of "
+"your selected page, if you not used this shortcode all page content will be "
+"replaced."
+msgstr "您可以使用 <code>%s</code> 短代码在所选页面的特定位置进行聊天，如果您不使用此短代码，所有页面内容将被替换。"
+
+#: views/layout-settings.php:479
+msgid "Compatibility Mode"
+msgstr "兼容性模式"
+
+#: views/layout-settings.php:480
+#, fuzzy
+msgid ""
+"Enable this option if shortcode displayed instead of plugin in BuddyPress "
+"profile/groups"
+msgstr "启用这种选择，如果简显示，而不是插在BuddyPress的个人/团体"
+
+#: views/layout-settings.php:488
+msgid "Combined View"
+msgstr "合并视图"
+
+#: views/layout-settings.php:489
+msgid "Always show threads list on left side of thread"
+msgstr "总是在左侧显示会话清单上"
+
+#: views/layout-settings.php:497
+#, fuzzy
+msgid "Block Scroll on Hover"
+msgstr "块滚动在悬停"
+
+#: views/layout-settings.php:498
+msgid ""
+"When hovering messages container scroll of the site will be disabled to "
+"improve user experience while using messages"
+msgstr "当悬停消息时，网站的容器滚动将被禁止，以改善用户在使用消息时的体验。"
+
+#: views/layout-settings.php:506
+msgid "Show My Profile Button"
+msgstr "显示我的个人资料的按钮"
+
+#: views/layout-settings.php:507
+msgid "Show my profile button at the messages bottom part"
+msgstr "显示我的个人资料按钮在信息底部"
+
+#: views/layout-settings.php:516
+msgid "Show Private Message Link at Members List"
+msgstr "显示出私人消息链接的成员名单"
+
+#: views/layout-settings.php:536
+msgid ""
+"This website using WebSocket plugin version, but has no active license "
+"attached."
+msgstr "本网站使用 WebSocket 插件版本，但没有附加活动许可证。"
+
+#: views/layout-settings.php:537
+#, php-format
+msgid ""
+"If you have license and it must be attached to this website, try to press "
+"sync button in <a href=\"%s\">your account</a>."
+msgstr "如果您有许可证并且必须将其附加到本网站，请尝试按<a href=\"%s\">您的帐户</a>中的同步按钮。"
+
+#: views/layout-settings.php:542
+#, php-format
+msgid ""
+"Seems like this website has active WebSocket License, but you are still "
+"using free version of plugin. Try to download and install plugin from <a "
+"href=\"%s\">your account</a> page."
+msgstr ""
+"看起来这个网站有有效的 WebSocket 许可证，但您仍在使用免费版本的插件。尝试从<a href=\"%s\">您的帐户</a>页面下载并安装插件。"
+
+#: views/layout-settings.php:547
+#, php-format
+msgid "This website has domain name <b>%s</b>"
+msgstr "这个网站有域名<b>%s</b>"
+
+#: views/layout-settings.php:548
+#, fuzzy
+msgid ""
+"Double-checking if WebSocket server know about this domain and sync is fine"
+msgstr "双检查，如果WebSocket服务器了解这一领域和同步的现"
+
+#: views/layout-settings.php:559
+msgid ""
+"All good, WebSocket server know about this domain, all should be working "
+"good."
+msgstr "一切很好，WebSocket服务器知道这个域名，所有工作良好。"
+
+#: views/layout-settings.php:562
+msgid ""
+"Oh no, WebSocket server dont know about this domain, realtime functionality "
+"will not work. If you just activated the license at this website wait 5-15 "
+"mins and check it again."
+msgstr ""
+"哦不，WebSocket 服务器不知道这个域，实时功能不起作用。如果您刚刚在本网站激活许可证，请等待 5-15 分钟，然后再次检查。\n"
+
+#: views/layout-settings.php:572
+#, fuzzy
+msgid ""
+"For the best performance disable WP Cron and schedule it with your server "
+"scheduler."
+msgstr "针对最佳效能的禁用WP计划和安排与您的服务器的调度程序。"
+
+#: views/layout-settings.php:573
+msgid "How to Disable WP-Cron for Faster Performance"
+msgstr "如何禁用 WP-Cron 以获得更快的性能"
+
+#: views/layout-settings.php:574
+msgid "This message will disappear when WP Cron is disabled."
+msgstr "当WP Cron被禁用时，该信息将消失。"
+
+#: views/layout-settings.php:586
+#, fuzzy
+msgid "Easy Start Thread"
+msgstr "简单的启动线"
+
+#: views/layout-settings.php:587
+msgid ""
+"When clicking the Private Message button user will be immediately redirected "
+"to new thread instead of new message screen"
+msgstr "单击“私人消息”按钮时，用户将被立即重定向到新线程而不是新消息屏幕"
+
+#: views/layout-settings.php:595
+#, fuzzy
+msgid "Enable replies to messages"
+msgstr "使答复消息"
+
+#: views/layout-settings.php:596
+msgid "Users will be able to select messages to reply"
+msgstr "用户将能够选择要回复的消息"
+
+#: views/layout-settings.php:604
+msgid "Allow users to edit messages"
+msgstr "允许用户编辑信息"
+
+#: views/layout-settings.php:605
+msgid "Allow users to edit their messages only"
+msgstr "仅允许用户编辑他们的消息"
+
+#: views/layout-settings.php:613
+msgid "Allow users to delete messages"
+msgstr "允许用户删除邮件"
+
+#: views/layout-settings.php:614
+msgid "Allow users to delete their messages only"
+msgstr "仅允许用户删除他们的消息"
+
+#: views/layout-settings.php:622
+#, fuzzy
+msgid "Disable Threads with multiple participants"
+msgstr "禁线，与多个参与者"
+
+#: views/layout-settings.php:623
+#, fuzzy
+msgid "Don`t allow to create threads with multiple participants"
+msgstr "不允许创建线，与多个参与者"
+
+#: views/layout-settings.php:631
+msgid "Allow users to leave threads with multiple participants"
+msgstr "允许用户离开多个参与者的会话"
+
+#: views/layout-settings.php:632
+msgid ""
+"Allow users to leave threads with multiple participants (creator can`t leave "
+"thread he started)"
+msgstr "允许用户离开多个参与者的线程（创建者不能离开他开始的线程）"
+
+#: views/layout-settings.php:640
+msgid "Disable Multiple Threads"
+msgstr "禁止多线程"
+
+#: views/layout-settings.php:641
+msgid "This will prevent users from starting few threads with same user"
+msgstr "这将防止用户使用同一用户启动几个线程"
+
+#: views/layout-settings.php:649
+#, fuzzy
+msgid "Auto Redirect to Existing Thread"
+msgstr "自动重新定向到现有的螺纹"
+
+#: views/layout-settings.php:650
+msgid ""
+"This will redirect user to existing thread with another user if they already "
+"have thread and Disable Multiple Threads is enabled"
+msgstr "如果其他用户已经有线程并且启用了禁用多线程，这会将用户重定向到另一个用户的现有线程"
+
+#: views/layout-settings.php:659 views/layout-settings.php:664
+msgid "Mini Friends"
+msgstr "迷你朋友"
+
+#: views/layout-settings.php:660
+#, fuzzy
+msgid "Enables mini friends list widget fixed to the bottom of browser window"
+msgstr "使迷你的朋友列表部件固定在底部的浏览器窗口"
+
+#: views/layout-settings.php:673
+msgid "Mini Threads"
+msgstr "迷你会话"
+
+#: views/layout-settings.php:674
+#, fuzzy
+msgid "Enables mini threads list widget fixed to the bottom of browser window"
+msgstr "使小型螺纹列部件固定在底部的浏览器窗口"
+
+#: views/layout-settings.php:678 views/layout-settings.php:693
+msgid "Small Chats"
+msgstr "闲聊"
+
+#: views/layout-settings.php:688
+msgid "Mini Chats"
+msgstr "迷你聊天"
+
+#: views/layout-settings.php:689
+#, fuzzy
+msgid "Enables mini chats fixed to the bottom of browser window"
+msgstr "使迷你聊天记录固定在底部的浏览器窗口"
+
+#: views/layout-settings.php:703
+msgid "Messages Status"
+msgstr "消息状态"
+
+#: views/layout-settings.php:704
+#, fuzzy
+msgid "Enable messages status functionality"
+msgstr "启用的消息状态功能"
+
+#: views/layout-settings.php:718
+#, fuzzy
+msgid "Disable additional security check when deleting thread"
+msgstr "禁用额外的安全检查当删除线"
+
+#: views/layout-settings.php:719
+#, fuzzy
+msgid "Check this if you have issue with thread deleting"
+msgstr "检查这个如果你有问题线删除"
+
+#: views/layout-settings.php:727
+#, fuzzy
+msgid "Disable users search"
+msgstr "禁止用户的搜索"
+
+#: views/layout-settings.php:728
+#, fuzzy
+msgid "Disables suggestions when starting new thread"
+msgstr "禁止建议，开始时新的线"
+
+#: views/layout-settings.php:736
+msgid "Search all users"
+msgstr "搜索所有用户"
+
+#: views/layout-settings.php:737
+#, fuzzy
+msgid "Enable search among all users when starting new thread"
+msgstr "启用搜索所有用户之间开始时新的线"
+
+#: views/layout-settings.php:745
+#, fuzzy
+msgid "Enable oEmbed for popular services"
+msgstr "使oEmbed为受欢迎的服务"
+
+#: views/layout-settings.php:746
+msgid ""
+"oEmbed YouTube, Vimeo, VideoPress, Flickr, DailyMotion, Kickstarter, Meetup."
+"com, Mixcloud, SoundCloud and more"
+msgstr ""
+"嵌入 YouTube、Vimeo、VideoPress、Flickr、DailyMotion、Kickstarter、Meetup."
+"com、Mixcloud、SoundCloud 等平台"
+
+#: views/layout-settings.php:755
+#, fuzzy
+msgid "Enable nice links"
+msgstr "使很好的链接"
+
+#: views/layout-settings.php:756
+msgid ""
+"Nice links finds link in user messages, fetching title and description if "
+"available and shows it at the bottom of message"
+msgstr "Nice links 在用户消息中查找链接，获取标题和描述（如果可用）并将其显示在消息底部"
+
+#: views/layout-settings.php:765
+#, fuzzy
+msgid "Disable Subject"
+msgstr "禁止受"
+
+#: views/layout-settings.php:766
+#, fuzzy
+msgid "Disable Subject when starting new thread"
+msgstr "禁用问题开始时新的线"
+
+#: views/layout-settings.php:775
+#, fuzzy
+msgid "Disable Send on Enter for Desktop devices"
+msgstr "禁止发送客为桌面设备"
+
+#: views/layout-settings.php:784
+#, fuzzy
+msgid "Disable onsite notifications"
+msgstr "禁止现场的通知"
+
+#: views/layout-settings.php:785
+#, fuzzy
+msgid "Disable onsite notifications (black notifications in right corner)"
+msgstr "禁止现场的通知(黑色的通知在正确的角)"
+
+#: views/layout-settings.php:800
+#, fuzzy
+msgid "Enable Messages for Groups"
+msgstr "启用的消息组"
+
+#: views/layout-settings.php:801
+#, fuzzy
+msgid "Enable messages for BuddyPress groups"
+msgstr "启用的消息BuddyPress组"
+
+#: views/layout-settings.php:809
+#, fuzzy
+msgid "Enable Mini Groups"
+msgstr "启用的小组"
+
+#: views/layout-settings.php:810
+#, fuzzy
+msgid "Enables mini groups widget fixed to the bottom of browser window"
+msgstr "使小组部件固定在底部的浏览器窗口"
+
+#: views/layout-settings.php:825
+#, fuzzy
+msgid "Enable Mobile Chat at Any Page"
+msgstr "启用手机聊天在任何一页"
+
+#: views/layout-settings.php:826
+msgid ""
+"Adds button fixed to the right corner on mobile devices, on click fully "
+"featured messaging will appear in full screen mode"
+msgstr "增加了按钮固定的右上角的移动设备、单功能齐全的消息将会出现在全屏幕模式"
+
+#: views/layout-settings.php:835
+#, fuzzy
+msgid "Enable Full Screen Mode for Touch Screens"
+msgstr "使全屏幕模式触摸屏幕"
+
+#: views/layout-settings.php:839 views/layout-settings.php:850
+msgid "Recommended"
+msgstr "建议"
+
+#: views/layout-settings.php:846
+#, fuzzy
+msgid "Auto open full screen mode when opening messages page"
+msgstr "自动打开全屏幕模式打开信息时页"
+
+#: views/layout-settings.php:856
+#, fuzzy
+msgid "Disable Send on Enter for Touch Screens"
+msgstr "禁止发送酒的触摸屏幕"
+
+#: views/layout-settings.php:865
+#, fuzzy
+msgid "Disable Tap to Open for Touch Screens"
+msgstr "禁用水龙头打开对触碰屏幕"
+
+#: views/layout-settings.php:874
+#, fuzzy
+msgid "Enable Emoji Selector in mobile view"
+msgstr "使选择的表情符号在移动图"
+
+#: views/layout-settings.php:878
+msgid "Not recommended!"
+msgstr "不推荐！"
+
+#: views/layout-settings.php:892
+#, fuzzy
+msgid "Enable files"
+msgstr "启用文件"
+
+#: views/layout-settings.php:893
+msgid "Enable file sharing between users"
+msgstr "启用用户之间的文件共享"
+
+#: views/layout-settings.php:901
+#, fuzzy
+msgid "Hide Attachments"
+msgstr "隐藏的附件"
+
+#: views/layout-settings.php:902
+#, fuzzy
+msgid "Hides attachments from media gallery"
+msgstr "隐藏的附件从媒体画廊"
+
+#: views/layout-settings.php:910
+msgid "Random file names"
+msgstr "随机的文件名"
+
+#: views/layout-settings.php:911
+msgid "Changes file names to random to improve users privacy"
+msgstr "将文件名改为随机，以提高用户的隐私"
+
+#: views/layout-settings.php:919
+#, fuzzy
+msgid "Delete attachment after"
+msgstr "删除附件后"
+
+#: views/layout-settings.php:927
+msgid "Max attachment size"
+msgstr "最大附件的尺寸"
+
+#: views/layout-settings.php:935 views/layout-settings.php:940
+msgid "Allowed formats"
+msgstr "允许的格式"
+
+#: views/layout-settings.php:967
+msgid "Title notifications"
+msgstr "标题通知"
+
+#: views/layout-settings.php:968
+msgid "Show unread threads number in website title (browser tab)"
+msgstr "展示未读线数在标题的网站(浏览器标签中展示)"
+
+#: views/layout-settings.php:976
+msgid "Mute Threads"
+msgstr "静音会话"
+
+#: views/layout-settings.php:977
+msgid "When enabled users will be able to mute threads"
+msgstr "启用后，用户将能够对线程进行静音处理"
+
+#: views/layout-settings.php:985
+msgid "Replace Standard BuddyPress Email Notifications"
+msgstr "更换标准BuddyPress电子邮件通知"
+
+#: views/layout-settings.php:986
+msgid ""
+"When enabled instead of standard notification on each new message, plugin "
+"will group messages by thread and send it every 15 minutes with cron job."
+msgstr "当启用而不是每条新消息的标准通知时，插件将按线程对消息进行分组，并使用 cron 作业每 15 分钟发送一次。"
+
+#: views/layout-settings.php:995
+msgid "Send notifications every (minutes)"
+msgstr "发送通知(每分钟)"
+
+#: views/layout-settings.php:996 views/layout-settings.php:1050
+msgid "Set to 0 to disable"
+msgstr "设置为 0 以禁用"
+
+#: views/layout-settings.php:1005
+msgid ""
+"Stop messages notifications to be added to BuddyPress Notifications Bell"
+msgstr "停止BuddyPress邮件通知"
+
+#: views/layout-settings.php:1006
+msgid "This will work only with setting above"
+msgstr "这仅适用于上面的设置"
+
+#: views/layout-settings.php:1014
+msgid "Enable Browser Push Notifications"
+msgstr "启用浏览器推送通知"
+
+#: views/layout-settings.php:1015
+msgid ""
+"Allow users to enable web push notifications, so they can receive messages "
+"even with closed browser"
+msgstr "允许用户启用网络推送通知，这样即使浏览器关闭也能接收消息"
+
+#: views/layout-settings.php:1016
+msgid ""
+"Supported in all major browsers like: Chrome, Opera, Firefox, IE, Edge and "
+"others"
+msgstr "支持所有主要的浏览器，如。Chrome, Opera, Firefox, IE, Edge等。"
+
+#: views/layout-settings.php:1037
+msgid "Only Friends Mode"
+msgstr "只有朋友模式"
+
+#: views/layout-settings.php:1038
+msgid "Allow only friends to send messages each other"
+msgstr "只允许朋友互相发送消息"
+
+#: views/layout-settings.php:1048
+msgid "Rate limiting new threads (seconds)"
+msgstr "限速新线程（秒单位）"
+
+#: views/layout-settings.php:1049
+msgid "Limit new threads creation to prevent users spam"
+msgstr "限制新线程创建以防止用户发送垃圾邮件"
+
+#: views/layout-settings.php:1059
+msgid "Restrict users from deleting threads"
+msgstr "限制用户删除会话"
+
+#: views/layout-settings.php:1060
+#, fuzzy
+msgid ""
+"Disable users from being able to delete thread (admin always can delete)"
+msgstr "禁止用户能够删除线(管理员始终可以删除)"
+
+#: views/layout-settings.php:1069
+msgid "Rate limiting for new replies"
+msgstr "新回复的速率限制"
+
+#: views/layout-settings.php:1070
+msgid "Limit max amount of replies within timeframe"
+msgstr "限制时间范围内的最大回复数量"
+
+#: views/layout-settings.php:1077
+msgid "Role"
+msgstr "用户"
+
+#: views/layout-settings.php:1078
+msgid "Limitation (0 to disable)"
+msgstr "限制(0为禁止)"
+
+#: views/layout-settings.php:1095
+msgid "messages per"
+msgstr "信息每"
+
+#: views/layout-settings.php:1097
+msgid "Hour"
+msgstr "小时"
+
+#: views/layout-settings.php:1098
+msgid "Day"
+msgstr "天"
+
+#: views/layout-settings.php:1111
+msgid "Rate limiting for new replies message"
+msgstr "新回复消息的速率限制"
+
+#: views/layout-settings.php:1120
+msgid "Restrict the creation of a new thread"
+msgstr "限制建立一个新的会话"
+
+#: views/layout-settings.php:1121
+msgid "Selected roles will not be allowed to start new threads"
+msgstr "所选择用户将不会被允许开始新的会话"
+
+#: views/layout-settings.php:1134
+msgid "Restrict the creation of a new thread message"
+msgstr "限制建立一个新的会话消息"
+
+#: views/layout-settings.php:1143
+msgid "Remove new thread button for restricted users"
+msgstr "删除受限制用户的新线程按钮"
+
+#: views/layout-settings.php:1152
+msgid "Restrict new replies"
+msgstr "限制新回复"
+
+#: views/layout-settings.php:1153
+msgid "Selected roles will not be allowed to reply"
+msgstr "所选择用户将不会被允许答复"
+
+#: views/layout-settings.php:1165
+msgid "Restrict new replies message"
+msgstr "限制新回复消息"
+
+#: views/layout-settings.php:1174
+msgid "Restrict from viewing message"
+msgstr "限制查看消息"
+
+#: views/layout-settings.php:1175
+msgid ""
+"Selected roles will see message configured below instead of real message"
+msgstr "所选角色将看到下面配置的消息而不是真实消息"
+
+#: views/layout-settings.php:1187
+msgid "Restrict viewing message"
+msgstr "限制查看消息"
+
+#: views/layout-settings.php:1200
+msgid ""
+"<strong>Website must to have SSL certificate</strong> in order to audio and "
+"video calls work."
+msgstr "<strong>网站必须拥有SSL证书</strong> 才能允许音频和视频工作"
+
+#: views/layout-settings.php:1201
+msgid ""
+"This is security requirements by browsers. Contact your hosting company to "
+"enable SSL certificate at your website."
+msgstr "这是浏览器的安全要求。请联系你的服务器提供者，在你的网站上启用SSL证书。"
+
+#: views/layout-settings.php:1202
+msgid "This notice will be hidden when website will work via HTTPS"
+msgstr "当网站将通过 HTTPS 工作时，此通知将被隐藏"
+
+#: views/layout-settings.php:1210
+msgid "Enable Video Calls"
+msgstr "启用视频通话"
+
+#: views/layout-settings.php:1211
+msgid "Allow users to make video calls between each other"
+msgstr "允许用户之间进行视频通话"
+
+#: views/layout-settings.php:1212
+msgid ""
+"Video calls are possible only with websocket version, its using most secure "
+"and modern WebRTC technology to empower video chats."
+msgstr "视频通话只有在websocket版本中才能实现，它使用最安全和现代的WebRTC技术来授权视频聊天。"
+
+#: views/layout-settings.php:1221
+#, fuzzy
+msgid "Enable Audio Calls"
+msgstr "启音频电话"
+
+#: views/layout-settings.php:1222
+msgid "Allow users to make audio calls between each other"
+msgstr "允许用户在彼此之间进行音频通话"
+
+#: views/layout-settings.php:1223
+#, fuzzy
+msgid ""
+"Audio calls are possible only with websocket version, its using most secure "
+"and modern WebRTC technology to empower audio calls."
+msgstr "音频电话是可能的，只有与websocket版本，其中使用最安全和现代demo完整的技术授权的音频通话。"
+
+#: views/layout-settings.php:1232
+msgid "Revert Mute Voice & Hide Video icons"
+msgstr "恢复静音和隐藏视频图标"
+
+#: views/layout-settings.php:1233
+msgid "Makes mute and hide video icons to appear in reverse way"
+msgstr "使视频图标静音和隐藏以反向显示"
+
+#: views/layout-settings.php:1242
+#, fuzzy
+msgid "Call time limit before call marked as missed (seconds)"
+msgstr "呼叫的时间限制之前的呼叫标记为错过(秒)"
+
+#: views/layout-settings.php:1247
+#, fuzzy
+msgid "Call Request Time Limit"
+msgstr "呼请求的时间限制"
+
+#: views/layout-settings.php:1257
+msgid "Missed call message when user was offline"
+msgstr "用户离线时的未接来电信息"
+
+#: views/layout-settings.php:1258
+msgid ""
+"Leaving message about missed call for user if user was offline at that "
+"moment."
+msgstr "如果用户当时处于离线状态，则为用户留下未接来电的消息。"
+
+#: views/layout-settings.php:1268
+msgid "Limit calls only to the friends"
+msgstr "限制只给朋友通话"
+
+#: views/layout-settings.php:1269
+msgid ""
+"Allow only friends to make calls between each other (admins always can call)"
+msgstr "只允许朋友之间互相通话（管理员始终可以通话）"
+
+#: views/layout-settings.php:1279
+#, fuzzy
+msgid "Audio Call button in user profile"
+msgstr "音频通话钮中的用户配置文件"
+
+#: views/layout-settings.php:1280
+msgid "Add audio call button to user profile"
+msgstr "将音频通话按钮添加到用户个人资料"
+
+#: views/layout-settings.php:1290
+msgid "Video Call button in user profile"
+msgstr "视频电话按钮中的用户配置文件"
+
+#: views/layout-settings.php:1291
+msgid "Add video call button to user profile"
+msgstr "添加视频按钮到用户配置文件"
+
+#: views/layout-settings.php:1301
+#, fuzzy
+msgid "Audio Call button in mini chats"
+msgstr "音频电话按钮在迷你聊天"
+
+#: views/layout-settings.php:1302
+msgid "Add audio call button to the mini chat"
+msgstr "在迷你聊天中添加音频通话按钮"
+
+#: views/layout-settings.php:1312
+msgid "Video Call button in mini chats"
+msgstr "迷你聊天中的视频电话按钮"
+
+#: views/layout-settings.php:1313
+msgid "Add video call button to the mini chat"
+msgstr "在迷你聊天中添加视频通话按钮"
+
+#: views/layout-settings.php:1345
+msgid "GIPHY API Key"
+msgstr "GIPHY API密钥"
+
+#: views/layout-settings.php:1346
+msgid "Leave this field empty to disable giphy"
+msgstr "将此字段留空以禁用 giphy"
+
+#: views/layout-settings.php:1347
+msgid "How to create GIPHY API key"
+msgstr "如何创建GIPHY API密钥"
+
+#: views/layout-settings.php:1355
+msgid "GIPHY Content rating"
+msgstr "GIPHY内容评级"
+
+#: views/layout-settings.php:1356
+#, php-format
+msgid "GIPHY Content Rating <a href=\"%s\" target=\"_blank\">Learn more</a>"
+msgstr "GIPHY 内容分级<a href=\"%s\" target=\"_blank\">了解详情</a>"
+
+#: views/layout-settings.php:1364
+msgid "GIPHY Language"
+msgstr "GIPHY语言"
+
+#: views/layout-settings.php:1365
+#, php-format
+msgid "GIPHY Language <a href=\"%s\" target=\"_blank\">Learn more</a>"
+msgstr "GIPHY 语言 <a href=\"%s\" target=\"_blank\">了解详情</a>"
+
+#: views/layout-settings.php:1395
+msgid "Stipop.io API Key"
+msgstr "Stipop.io API密钥"
+
+#: views/layout-settings.php:1396
+msgid "Leave this field empty to disable stickers"
+msgstr "将此字段留空以禁用贴纸"
+
+#: views/layout-settings.php:1404
+msgid "Language"
+msgstr "语言"
+
+#: views/layout-settings.php:1405
+msgid ""
+"Two letter language code for showing stickers which best fits this language"
+msgstr "用于显示最适合该语言的贴纸的两个字母语言代码"
+
+#: views/layout-settings.php:1406
+#, fuzzy
+msgid "For example (en, ko, es)"
+msgstr "例如(en、ko,es)"
+
+#: views/layout-settings.php:1421
+#, fuzzy
+msgid "General Color"
+msgstr "一般的颜色"
+
+#: views/layout-settings.php:1430
+msgid "Add close button to Mini Threads & Friends Widget"
+msgstr "将关闭按钮添加到 Mini Threads & Friends Widget"
+
+#: views/layout-settings.php:1439
+msgid "Mini Threads & Friends height"
+msgstr "迷你的会话和朋友的高度"
+
+#: views/layout-settings.php:1440
+msgid "Mini windows height in PX."
+msgstr "迷你窗口以像素单位显示。"
+
+#: views/layout-settings.php:1450
+msgid "Mini Chats Height"
+msgstr "迷你聊天的高度"
+
+#: views/layout-settings.php:1451
+msgid "Mini chats height in PX."
+msgstr "迷你聊天的高度，单位为像素。"
+
+#: views/layout-settings.php:1461
+#, fuzzy
+msgid "Fixed Header Height"
+msgstr "固定头的高度"
+
+#: views/layout-settings.php:1462
+msgid "If your website has fixed header specify its height in PX."
+msgstr "如果您的网站具有固定标题，将以像素为单位指定其高度。"
+
+#: views/layout-settings.php:1463
+msgid "This needed for correct scrolling in some cases."
+msgstr "在某些情况下，这需要正确滚动。"
+
+#: views/layout-settings.php:1472
+msgid "Max Height of Messages Container"
+msgstr "最大高的信息容器"
+
+#: views/layout-settings.php:1473
+msgid "Max Height of Messages Container in PX."
+msgstr "消息容器的最大高度以像素为单位。"
+
+#: views/layout-settings.php:1482
+msgid "Allow to disable sound notification"
+msgstr "允许禁用通知声音"
+
+#: views/layout-settings.php:1483
+msgid "Allow user disable sound notifications in their user settings"
+msgstr "允许在用户设置中禁用声音"
+
+#: views/layout-settings.php:1492
+msgid "Disable Search"
+msgstr "禁止搜索"
+
+#: views/layout-settings.php:1493
+msgid "Disables search functionality"
+msgstr "禁止搜索功能"
+
+#: views/layout-settings.php:1502
+#, fuzzy
+msgid "Disable Favorite Messages"
+msgstr "禁止最喜欢的消息"
+
+#: views/layout-settings.php:1503
+msgid "Disables favorite messages functionality"
+msgstr "禁止星标消息功能"
+
+#: views/layout-settings.php:1512
+#, fuzzy
+msgid "Disable User Settings"
+msgstr "禁止用户设置"
+
+#: views/layout-settings.php:1513
+msgid "Disables settings button in the messages header"
+msgstr "禁止设置按钮"
+
+#: views/layout-settings.php:1522
+#, fuzzy
+msgid "Disable New Threads Screen"
+msgstr "禁用新的视线"
+
+#: views/layout-settings.php:1523
+#, fuzzy
+msgid "Disables new thread button and screen (admin will always see it)"
+msgstr "禁止新的线按钮和屏幕(管理员将始终看到它)"
+
+#: views/layout-settings.php:1538
+msgid "Message notification sound volume"
+msgstr "消息通知的音量"
+
+#: views/layout-settings.php:1539 views/layout-settings.php:1548
+#: views/layout-settings.php:1557
+#, fuzzy
+msgid "From 0 to 100 (0 to disable)"
+msgstr "从0到100(0到禁止)"
+
+#: views/layout-settings.php:1547
+msgid "Message sent sound volume"
+msgstr "发送消息的音量"
+
+#: views/layout-settings.php:1556
+msgid "Incoming call sound volume"
+msgstr "来电音量"
+
+#: views/layout-settings.php:1572
+msgid "Export Settings"
+msgstr "导出设置"
+
+#: views/layout-settings.php:1573
+msgid "Copy settings, so you can import them later to another website"
+msgstr "复制设置，这样你就可以在以后将它们导入另一个网站"
+
+#: views/layout-settings.php:1582
+msgid "Import Settings"
+msgstr "导入设置"
+
+#: views/layout-settings.php:1583
+msgid "Paste settings copied before"
+msgstr "粘贴之前复制的设置"
+
+#: views/layout-settings.php:1631
+msgid "Unread messages counter"
+msgstr "未读消息计数器"
+
+#: views/layout-settings.php:1632
+msgid "Show unread messages counter anywhere in your website"
+msgstr "在你的页面中展示未读消息反任何地方"
+
+#: views/layout-settings.php:1633
+msgid ""
+"To add this shortcode to your menu item you can use <a href=\"https:"
+"//wordpress.org/plugins/shortcode-in-menus/\" target=\"_blank\">Shortcode in "
+"Menus</a> plugin."
+msgstr ""
+"要将此短代码添加到您的菜单项，您可以使用 <a href=\"https://wordpress.org/plugins/shortcode-in-"
+"menus/\" target=\"_blank\">菜单中的短代码</a> 插件。"
+
+#: views/layout-settings.php:1641
+msgid "My messages URL"
+msgstr "我的消息URL"
+
+#: views/layout-settings.php:1642
+msgid "Return url to logged in user inbox"
+msgstr "将 url 返回到登录的用户收件箱"
+
+#: views/layout-settings.php:1646
+#, fuzzy
+msgid "For example: "
+msgstr "例如： "
+
+#: views/layout-settings.php:1659
+msgid "Private Message Button"
+msgstr "私信按钮"
+
+#: views/layout-settings.php:1660
+msgid "Shows private message button"
+msgstr "显示私信按钮"
+
+#: views/layout-settings.php:1661
+msgid ""
+"This shortcode will try to find user_id from environment, for example author "
+"of post and display Private Message button."
+msgstr "此短代码将尝试从环境中查找 user_id，例如帖子的作者并显示私人消息按钮。"
+
+#: views/layout-settings.php:1662
+msgid ""
+"If user_id not found it will not display anything. You can force user id "
+"with user_id=\"1\" attribute."
+msgstr ""
+"如果没有找到 user_id，它将不会显示任何内容。您可以使用 user_id=\"1\" 属性强制用户 ID。\n"
+
+#: views/layout-settings.php:1674
+msgid "Save Changes"
+msgstr "保存变化"
+
+#: views/layout-starred.php:29
+msgid "No starred messages yet!"
+msgstr "暂时还没有被星标的信息!"
+
+#: views/layout-thread.php:137
+msgid "Thread settings"
+msgstr "会话设置"
+
+#: views/layout-thread.php:142
+msgid "Allow thread members to invite other members"
+msgstr "允许在会话中的成员邀请其他成员"
+
+#: views/layout-thread.php:144
+msgid ""
+"When enabled, thread participants will be able to add other users to thread."
+msgstr "启用后，线程参与者将能够添加其他用户到线程。"
+
+#: views/layout-thread.php:151
+#, fuzzy
+msgid "Change thread subject"
+msgstr "改变线程的主题"
+
+#: views/layout-thread.php:155
+msgid "Change subject"
+msgstr "改变主题"
+
+#: views/layout-thread.php:185
+msgid "Are you sure you want to change subject of this thread?"
+msgstr "你确定要改变这个话题的主题吗？"
+
+#: views/layout-thread.php:216
+msgid "Add participants"
+msgstr "添加参与者"
+
+#: views/layout-user-settings.php:35
+#, fuzzy
+msgid "Enable notifications via email"
+msgstr "启用通过电子邮件通知"
+
+#: views/layout-user-settings.php:38
+msgid ""
+"When enabled, you will receive notifications about new messages via email "
+"when you are offline."
+msgstr "启用后，你将通过电子邮件收到关于新消息的通知。"
+
+#: views/layout-user-settings.php:48
+#, fuzzy
+msgid "Disable sound notification on new message"
+msgstr "禁用声音通知的新消息"
+
+#: views/layout-user-settings.php:51
+msgid "When enabled, you will not hear sound when you receive new message."
+msgstr "启用后，当你收到新信息时，你将不会听到声音。"
+
+#: views/layout-user-settings.php:59
+#, fuzzy
+msgid "Browser push notifications"
+msgstr "浏览器推动通知"
+
+#: views/layout-user-settings.php:62
+msgid ""
+"When enabled, you will receive messages notifications even if browser is "
+"closed."
+msgstr "启用后，即使浏览器关闭，你也会收到信息通知。"
+
+#: views/layout-user-settings.php:65
+msgid "Disable"
+msgstr "禁用"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.wordplus.org"
+msgstr "https://www.wordplus.org"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "Enhanced Private Messages System for BuddyPress and WordPress"
+msgstr "增强私人信息系统BuddyPress字"
+
+#. Author of the plugin/theme
+msgid "WordPlus"
+msgstr "WordPlus"

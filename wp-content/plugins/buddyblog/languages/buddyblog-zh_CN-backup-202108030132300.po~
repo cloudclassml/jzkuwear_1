@@ -1,0 +1,385 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyBlog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-02 05:17+0000\n"
+"PO-Revision-Date: 2021-08-02 05:33+0000\n"
+"Last-Translator: \n"
+"Language-Team: 简体中文\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: buddyblog"
+
+#. Name of the plugin
+#: buddyblog-loader.php:25 admin/admin.php:279
+msgid "BuddyBlog"
+msgstr "BuddyBlog"
+
+#: buddyblog-loader.php:69
+msgid "Search Posts..."
+msgstr "搜索文章..."
+
+#: buddyblog-loader.php:106
+#, php-format
+msgid "Blog <span>%d</span>"
+msgstr "博客 <span>%d</span>"
+
+#: buddyblog-loader.php:122 buddyblog-loader.php:163 buddyblog-loader.php:208
+msgid "Posts"
+msgstr "文章"
+
+#: buddyblog-loader.php:131 buddyblog-loader.php:184
+#: template/buddyblog/posts.php:98
+msgid "New Post"
+msgstr "新文章"
+
+#: buddyblog-loader.php:175
+msgid "My Posts"
+msgstr "我的文章"
+
+#: buddyblog-loader.php:215
+#, php-format
+msgid "Profile picture of %s"
+msgstr "%s 的头像"
+
+#: admin/admin.php:48
+msgid "Settings"
+msgstr "设置"
+
+#: admin/admin.php:48
+msgid "Settings for BuddyBlog."
+msgstr "BuddyBlog设置。"
+
+#: admin/admin.php:62
+msgid "Published"
+msgstr "已发布"
+
+#: admin/admin.php:63
+msgid "Draft"
+msgstr "草稿"
+
+#: admin/admin.php:67
+msgid "Open"
+msgstr "打开"
+
+#: admin/admin.php:68
+msgid "Closed"
+msgstr "已关闭"
+
+#: admin/admin.php:89
+msgid "Blog Post Type"
+msgstr "博客文章类型"
+
+#: admin/admin.php:90
+msgid "Set the post type for user blog."
+msgstr "设置用户博客的文章类型。"
+
+#: admin/admin.php:97
+msgid "Default post status"
+msgstr "默认文章状态"
+
+#: admin/admin.php:98
+msgid "What should be the post status when user submits the form?"
+msgstr "当用户提交表单时，文章状态应该是什么？"
+
+#: admin/admin.php:105
+msgid "Enable post visibility(Public/Private)"
+msgstr "启用后的可见性(公共/私密)"
+
+#: admin/admin.php:106
+msgid ""
+"Allow users to set post visibility? Only available when post status is "
+"\"publish\"."
+msgstr "允许用户设置文章可见性？仅当帖子状态为“发布”时可用。"
+
+#: admin/admin.php:110 admin/admin.php:121 admin/admin.php:132
+#: admin/admin.php:151 admin/admin.php:173 admin/admin.php:192
+#: admin/admin.php:203 admin/admin.php:228 admin/admin.php:246
+#: admin/admin.php:264
+msgid "Yes"
+msgstr "是的"
+
+#: admin/admin.php:111 admin/admin.php:122 admin/admin.php:133
+#: admin/admin.php:152 admin/admin.php:174 admin/admin.php:193
+#: admin/admin.php:204 admin/admin.php:229 admin/admin.php:247
+#: admin/admin.php:265
+msgid "No"
+msgstr "不"
+
+#: admin/admin.php:116
+msgid "Allow Upload?"
+msgstr "允许上传吗？"
+
+#: admin/admin.php:117
+msgid "Want to allow user to upload?"
+msgstr "想让用户上传吗?"
+
+#: admin/admin.php:127
+msgid "Enable Post Thumbnail?"
+msgstr "启用发布缩略图？"
+
+#: admin/admin.php:128
+msgid ""
+"Want to allow users to add post featured image? Only works when your theme "
+"supports featured image."
+msgstr "想要允许用户添加帖子特色图片吗？仅当您的主题支持特色图片时才有效。"
+
+#: admin/admin.php:138
+msgid "Comment status?"
+msgstr "评论状态？ "
+
+#: admin/admin.php:139
+msgid "Do you want to allow commenting on user posts?"
+msgstr "您想允许对用户帖子发表评论吗？"
+
+#: admin/admin.php:146
+msgid "Allow post author to enable/disable comment?"
+msgstr "允许作者启用/停用评论吗？"
+
+#: admin/admin.php:147
+msgid ""
+"If you enable, A user will be able to change the comment status for his/her "
+"post."
+msgstr "如果您启用，用户将能够更改其文章的评论状态。"
+
+#: admin/admin.php:157
+msgid "Where to redirect after creating/updating post?"
+msgstr "创建/更新文章后重定向到哪里？"
+
+#: admin/admin.php:158
+msgid ""
+"If you select archive, user will be redirected to the post list, if single, "
+"user will be redirected to single post page if the post is published."
+msgstr "如果选择存档，用户将被重定向到文章列表，如果是单一文章，文章发布后用户将被重定向到单个文章页面。"
+
+#: admin/admin.php:162
+msgid "Archive page"
+msgstr "归档页"
+
+#: admin/admin.php:163
+msgid "Single post page"
+msgstr "单个文章页面"
+
+#: admin/admin.php:168
+msgid "Enable Taxonomy?"
+msgstr "启用分类?"
+
+#: admin/admin.php:169
+msgid ""
+"If you enable, users will be able to select terms from the selected "
+"taxonomies."
+msgstr "如果启用，用户将能够从选定的分类法中选择术语。"
+
+#: admin/admin.php:179
+msgid "Select allowed taxonomies"
+msgstr "选择允许的分类"
+
+#: admin/admin.php:180
+msgid ""
+"Please check the taxonomies you want users to be able to attach to their "
+"post."
+msgstr "请检查您希望用户能够附加到他们的帖子的分类法。"
+
+#: admin/admin.php:187
+msgid "Show single posts on user profile?"
+msgstr "在用户个人资料上显示单个帖子？"
+
+#: admin/admin.php:188
+msgid ""
+"If you enable it, the permalink to single post will be something like http:"
+"//yoursite.com/members/username/buddyblog/postname."
+msgstr ""
+"如果启用它，单个文章的永久链接将类似于 http://yoursite.com/members/username/buddyblog/postname。"
+
+#: admin/admin.php:198
+msgid "Limit number of posts a user can create?"
+msgstr "限制用户可以创建的文章数量？"
+
+#: admin/admin.php:199
+msgid ""
+"If you enable it, You can control the allowed number of posts from the next "
+"option."
+msgstr ""
+"如果启用它，您可以从下一个选项控制允许的文章数量。\n"
+
+#: admin/admin.php:209
+msgid "How many posts a user can create?"
+msgstr "一个用户可以创建多少文章？"
+
+#: admin/admin.php:210
+msgid "Only applies if you have enabled the limit on posts from above option."
+msgstr "仅当您启用了上述选项的帖子限制时才适用。"
+
+#: admin/admin.php:216
+msgid "Which capability is required for pusblishing?"
+msgstr "发布文章需要哪些能力？"
+
+#: admin/admin.php:217 admin/admin.php:235
+msgid ""
+"Please check for https://codex.wordpress.org/Roles_and_Capabilities allowed "
+"capabilities."
+msgstr "请检查 https://codex.wordpress.org/Roles_and_Capabilities 允许的功能。"
+
+#: admin/admin.php:223
+msgid "Allow users to unpublish their own post?"
+msgstr "允许用户取消发布自己的文章吗？"
+
+#: admin/admin.php:234
+msgid "Which capability is required for creating post?"
+msgstr "创建文章需要哪些功能？"
+
+#: admin/admin.php:241
+msgid "Allow user to edit their post?"
+msgstr "允许用户编辑文章吗?"
+
+#: admin/admin.php:242
+msgid "if you disable it, user will not be able to edit their own post."
+msgstr ""
+"如果禁用它，用户将无法编辑自己的文章。\n"
+
+#: admin/admin.php:252
+msgid "Which capability can edit post in backend(WordPress Dashboard)?"
+msgstr "哪些功能可以在后端（WordPress 仪表板）中编辑文章？"
+
+#: admin/admin.php:253
+msgid ""
+"User with these capabilities will nto be redirected to front end editor for "
+"editing post., user will not be able to edit their own post."
+msgstr "具有这些功能的用户将不会被重定向到前端编辑器来编辑帖子。用户将无法编辑自己的帖子。"
+
+#: admin/admin.php:259
+msgid "Allow user to delete their post?"
+msgstr "允许用户删除文章吗？"
+
+#: admin/admin.php:260
+msgid "if you disable it, user will not be able to delete their own post."
+msgstr "如果禁用它，用户将无法删除自己的文章。"
+
+#: admin/admin.php:279
+msgid "BuddyBlog Settings"
+msgstr "BuddyBlog设置"
+
+#: core/buddyblog-filters.php:83
+msgid "Your post was saved."
+msgstr "你的文章已经保存。"
+
+#: core/buddyblog-templates.php:127
+msgid "Edit"
+msgstr "编辑"
+
+#: core/buddyblog-templates.php:154
+msgid "Delete"
+msgstr "删除"
+
+#: core/buddyblog-functions.php:304
+msgid "Publish"
+msgstr "发布"
+
+#: core/buddyblog-functions.php:308
+msgid "Unpublish"
+msgstr "取消发布"
+
+#: core/buddyblog-actions.php:88
+msgid "You should not perform unauthorized actions"
+msgstr "您不应执行未经授权的操作"
+
+#: core/buddyblog-actions.php:116
+msgid "Post Published"
+msgstr "文章已发布"
+
+#: core/buddyblog-actions.php:143
+msgid "Post unpublished"
+msgstr "尚未发表"
+
+#: template/buddyblog/single.php:46
+#, php-format
+msgid "Posted on %1$s"
+msgstr "发表于%1$s"
+
+#: template/buddyblog/single.php:81
+msgid "No Posts found!"
+msgstr ""
+"没有找到任何文章\n"
+
+#: template/buddyblog/posts.php:46
+#, php-format
+msgctxt "Post written by..."
+msgid "by %s"
+msgstr "%s所写"
+
+#: template/buddyblog/posts.php:49
+msgctxt "Sticky post"
+msgid "Featured"
+msgstr "置顶"
+
+#: template/buddyblog/posts.php:63
+msgid "Permanent Link to"
+msgstr "永久链接"
+
+#: template/buddyblog/posts.php:65
+#, php-format
+msgid "%1$s <span>in %2$s</span>"
+msgstr "%1$s <span>在 %2$s</span>中"
+
+#: template/buddyblog/posts.php:69
+msgid "Read the rest of this entry &rarr;"
+msgstr "阅读本条目的其余部分 →"
+
+#: template/buddyblog/posts.php:70
+msgid "Pages: "
+msgstr "页数： "
+
+#: template/buddyblog/posts.php:73
+msgid "Tags: "
+msgstr "标签： "
+
+#: template/buddyblog/posts.php:73
+msgid "No Comments &#187;"
+msgstr "没有评论 &#187;"
+
+#: template/buddyblog/posts.php:73
+msgid "1 Comment &#187;"
+msgstr "1个评论 &#187;"
+
+#: template/buddyblog/posts.php:73
+msgid "% Comments &#187;"
+msgstr "% 评论 &#187;"
+
+#: template/buddyblog/posts.php:89
+msgid "There are no posts by this user at the moment. Please check back later!"
+msgstr "该用户暂时没有帖子。请稍后回来查看！"
+
+#: template/buddyblog/posts.php:98
+msgid "You haven't posted anything yet."
+msgstr "你还没有发布任何东西呢。"
+
+#: template/buddyblog/edit.php:9
+msgid ""
+"Please Install <a href=\"http://buddydev.com/plugins/bp-simple-front-end-"
+"post/\"> BP Simple Front End Post Plugin to make the editing functionality "
+"work."
+msgstr ""
+"请安装 <a href=\"http://buddydev.com/plugins/bp-simple-front-end-post/\"> BP "
+"Simple Front End Post Plugin 以使编辑功能正常工作。"
+
+#. Description of the plugin
+msgid ""
+"Allow users to post/edit/manage blog posts from their BuddyPress profile"
+msgstr "允许用户在BuddyPress的档案发布、编辑、管理博客的文章"
+
+#. URI of the plugin
+msgid "https://buddydev.com/plugins/buddyblog/"
+msgstr "https://buddydev.com/plugins/buddyblog/"
+
+#. Author of the plugin
+msgid "BuddyDev"
+msgstr "BuddyDev"
+
+#. Author URI of the plugin
+msgid "https://buddydev.com/members/sbrajesh/"
+msgstr "https://buddydev.com/members/sbrajesh/"

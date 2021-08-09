@@ -1,0 +1,272 @@
+# Translation of Plugins - Cachify - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Cachify - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-14 03:00:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Cachify - Stable (latest release)\n"
+
+#: inc/setup/cachify.hdd.htaccess.php:75
+msgid "If there are partial errors in the redirects within the blog, the shutdown of the Apache Content Cache can help:"
+msgstr "如果网站中的部分页面存在重定向错误，关闭Apache内容缓存可以解决："
+
+#: inc/setup/cachify.hdd.htaccess.php:72
+msgid "Changes to the .htaccess file can not be made if PHP is run as fcgi."
+msgstr "如果PHP以fcgi方式运行，则无法对.htaccess文件进行更改。"
+
+#: inc/setup/cachify.hdd.htaccess.php:69
+msgid "Within .htaccess, the extension has a higher priority and must be placed above the WordPress Rewrite rules (marked mostly by # BEGIN WordPress … # END WordPress)."
+msgstr "在.htaccess中，扩展具有更高的优先级，必须放在WordPress重写规则之上（主要用#BEGIN WordPress…#END WordPress标记）。"
+
+#: inc/setup/cachify.hdd.htaccess.php:55
+msgid ".htaccess HDD setup"
+msgstr ".htaccess硬盘配置"
+
+#: inc/setup/cachify.hdd.nginx.php:15
+msgid "nginx HDD setup"
+msgstr "Nginx硬盘配置"
+
+#: inc/setup/cachify.memcached.nginx.php:91 inc/setup/cachify.hdd.nginx.php:83
+msgid "You might need to adjust the location directives to your needs."
+msgstr "您可能需要根据实际情况调整location指令"
+
+#. translators: code
+#: inc/setup/cachify.memcached.nginx.php:44
+msgid "If you have errors please try to change %1$s to %2$s This forces IPv4 because some servers that allow IPv4 and IPv6 are configured to bind memcached to IPv4 only."
+msgstr "如果您遇到了错误，请尝试更改%1$s为%2$s，此操作强制使用IPv4进行连接，因为一些启用了IPv4和IPv6的服务器被配置为仅将memcached绑定到IPv4地址上。"
+
+#. translators: variable names
+#: inc/setup/cachify.memcached.nginx.php:34 inc/setup/cachify.hdd.nginx.php:34
+msgid "For domains with FQDN, the variable %1$s must be used instead of %2$s."
+msgstr "对于具有FQDN的域，必须使用变量%s而不是%s。"
+
+#: inc/setup/cachify.memcached.nginx.php:26
+#: inc/setup/cachify.hdd.htaccess.php:64 inc/setup/cachify.hdd.nginx.php:26
+msgid "Notes"
+msgstr "说明"
+
+#: inc/setup/cachify.memcached.nginx.php:19 inc/setup/cachify.hdd.nginx.php:19
+msgid "Please add the following lines to your nginx.conf"
+msgstr "请将以下配置添加到您的nginx.conf中"
+
+#: inc/setup/cachify.memcached.nginx.php:15
+msgid "nginx Memcached setup"
+msgstr "Nginx Memcached配置"
+
+#: inc/setup/cachify.apc.htaccess.php:26 inc/setup/cachify.hdd.htaccess.php:58
+msgid "Please add the following lines to your .htaccess file"
+msgstr "请将以下面的配置添加到您的.htaccess文件中"
+
+#: inc/setup/cachify.apc.htaccess.php:22
+msgid ".htaccess APC setup"
+msgstr ". htaccess APCS 配置"
+
+#: inc/setup/cachify.apc.nginx.php:53
+msgid "You might need to adjust the non-highlighted lines to your needs."
+msgstr "您可能需要根据需要调整非突出显示的行。"
+
+#: inc/setup/cachify.apc.nginx.php:34
+msgid "Please add the following lines to your nginx PHP configuration"
+msgstr "请将以下代码添加到您的nginx PHP配置中"
+
+#: inc/setup/cachify.apc.nginx.php:30
+msgid "nginx APC setup"
+msgstr "nginx APC设置"
+
+#: inc/cachify.settings-footer.php:13
+msgid "FAQ"
+msgstr "常见问题"
+
+#: inc/cachify.settings-footer.php:13
+msgid "https://cachify.pluginkollektiv.org/documentation/faq/"
+msgstr "https://cachify.pluginkollektiv.org/documentation#faq"
+
+#: inc/class-cachify.php:1656 inc/class-cachify.php:1662
+#: inc/class-cachify.php:1668
+msgid "Setup"
+msgstr "服务器设置"
+
+#: inc/class-cachify.php:1566
+msgid "The server configuration file (e.g. .htaccess) needs to be adjusted. Please have a look at the setup tab."
+msgstr "服务器配置文件(例如.htaccess)需要调整，请查看安装选项卡。"
+
+#: inc/class-cachify.php:1508
+msgid "HTML + Inline JavaScript"
+msgstr "HTML + 内联 JavaScript"
+
+#: inc/class-cachify.php:1507
+msgid "HTML"
+msgstr "HTML"
+
+#: inc/class-cachify.php:1475
+msgid "Memcached"
+msgstr "Memcached"
+
+#: inc/class-cachify.php:1473
+msgid "APC"
+msgstr "APC"
+
+#: inc/class-cachify.php:675
+msgid "Flush site cache"
+msgstr "刷新缓存"
+
+#. translators: %s: cache size
+#: inc/class-cachify.php:591
+msgid "%s Cache"
+msgstr "%s 缓存"
+
+#: inc/class-cachify.php:589
+msgid "Empty Cache"
+msgstr "清空缓存"
+
+#: inc/cachify.settings-footer.php:15 inc/class-cachify.php:556
+msgid "Support"
+msgstr "帮助"
+
+#: inc/cachify.settings-footer.php:16 inc/class-cachify.php:555
+msgid "Donate"
+msgstr "捐赠"
+
+#: inc/cachify.settings.php:140
+msgid "Add additional details to Cachify signature (HTML comment)"
+msgstr "为Cachify签名添加更多细节(HTML注释)"
+
+#: inc/cachify.settings.php:136
+msgid "Cache signature"
+msgstr "缓存签名"
+
+#: inc/cachify.settings.php:113
+msgid "Browser User Agents"
+msgstr "浏览器用户代理"
+
+#: inc/cachify.settings.php:112
+msgid "e.g. MSIE 6, Opera"
+msgstr "如：MSIE 6, Opera"
+
+#: inc/cachify.settings.php:106
+msgid "Post/Page IDs"
+msgstr "文章/页面ID"
+
+#: inc/cachify.settings.php:105
+msgid "e.g. 1, 2, 3"
+msgstr "如：1, 2, 3"
+
+#: inc/cachify.settings.php:92
+msgid "If selected, the site cache will be flushed, otherwise only the corresponding post is removed from the cache."
+msgstr "选中刷新全站缓存，不选刷新关联的文章缓存。"
+
+#: inc/cachify.settings.php:82
+msgid "If selected, the site cache will be flushed, otherwise only the modified post is removed from the cache."
+msgstr "选中刷新全站缓存，不选刷新修改后的文章缓存。"
+
+#: inc/cachify.settings.php:79
+msgid "Flush the cache at modified posts"
+msgstr "文章修改后刷新全站缓存"
+
+#: inc/cachify.settings.php:58
+msgid "Flush cache now"
+msgstr "刷新缓存"
+
+#. translators: Placeholder is the trash icon itself as dashicon
+#: inc/cachify.settings.php:46
+msgid "Flush the cache by clicking the button below or the %1$s icon in the admin bar."
+msgstr "单击下面的按钮或管理栏中的%1$s图标来刷新缓存。"
+
+#: inc/cachify.settings.php:36
+msgid "HDD cache will only expire as you update posts or flush it yourself."
+msgstr "HDD缓存只有在你更新文章或者手动刷新时才会过期。"
+
+#: inc/class-cachify-hdd.php:144 inc/class-cachify-db.php:198
+#: inc/class-cachify-apc.php:146 inc/class-cachify-memcached.php:192
+msgid "Generated"
+msgstr "生成"
+
+#. Plugin URI of the plugin
+msgid "https://cachify.pluginkollektiv.org"
+msgstr "https://cachify.pluginkollektiv.org/"
+
+#. Author URI of the plugin
+msgid "https://pluginkollektiv.org"
+msgstr "https://pluginkollektiv.org"
+
+#. Author of the plugin
+msgid "pluginkollektiv"
+msgstr "pluginkollektiv"
+
+#. Description of the plugin
+msgid "Easy to use WordPress caching plugin. Serving static blog pages from database, disk, Memcached or APC."
+msgstr "简单易用的WordPress缓存插件，可以将WordPress页面以静态数据的形式缓存到数据库，磁盘，Memcached或APC缓存中。"
+
+#: inc/cachify.settings-footer.php:14
+msgid "Manual"
+msgstr "手册"
+
+#: inc/cachify.settings.php:121
+msgid "Cache minify"
+msgstr "缓存压缩"
+
+#: inc/cachify.settings.php:100
+msgid "Cache exceptions"
+msgstr "缓存限制"
+
+#: inc/cachify.settings.php:89
+msgid "Flush the cache at new comments"
+msgstr "有新评论发表时清空全站缓存"
+
+#: inc/cachify.settings.php:72
+msgid "No cache generation by logged in users"
+msgstr "用户登录时不生成缓存"
+
+#: inc/cachify.settings.php:66
+msgid "Cache generation"
+msgstr "缓存生成"
+
+#: inc/cachify.settings.php:35 inc/cachify.settings.php:39
+msgid "Hours"
+msgstr "小时"
+
+#: inc/cachify.settings.php:30
+msgid "Cache expiration"
+msgstr "缓存过期"
+
+#: inc/cachify.settings.php:17
+msgid "Cache method"
+msgstr "缓存方式"
+
+#: inc/class-cachify.php:1506
+msgid "No minify"
+msgstr "不压缩"
+
+#: inc/class-cachify.php:1474
+msgid "Hard disk"
+msgstr "硬盘"
+
+#: inc/class-cachify.php:1472
+msgid "Database"
+msgstr "数据库"
+
+#. Plugin Name of the plugin
+#: inc/class-cachify.php:1450 inc/class-cachify.php:1451
+msgid "Cachify"
+msgstr "Cachify"
+
+#: inc/class-cachify.php:787
+msgid "Cachify cache is flushed."
+msgstr "Cachify 缓存已清空。"
+
+#: inc/class-cachify.php:681 inc/cachify.settings.php:47
+msgid "Flush the cachify cache"
+msgstr "清空 Cachify 缓存"
+
+#: inc/class-cachify.php:606
+msgid "Caching method"
+msgstr "缓存方式"
+
+#: inc/class-cachify.php:530 inc/class-cachify.php:1648
+msgid "Settings"
+msgstr "设置"

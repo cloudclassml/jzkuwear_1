@@ -1,0 +1,157 @@
+# Translation of Plugins - Automatic Translate Addon For Loco Translate - Development (trunk) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Automatic Translate Addon For Loco Translate - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-06-06 18:42:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Automatic Translate Addon For Loco Translate - Development (trunk)\n"
+
+#: automatic-translator-addon-for-loco-translate.php:336
+msgid ""
+"<p style=\"font-size:16px;\">\n"
+"        <strong>Notice: %s</strong> is only compatible with Loco Translate latest version 2.4.4 or higher.\n"
+"        </br><a class=\"button button-primary\" href=\""
+msgstr ""
+"<p style=\"font-size:16px;\">\n"
+"                <strong>注意：%s</strong>只与Loco Translate最新的2.4.4版本或更高版本兼容。\n"
+"                </br><a class=\"button button-primary\" href=\""
+
+#: automatic-translator-addon-for-loco-translate.php:326
+msgid "<br/><br/><a href=\""
+msgstr "<br/><br/><a href=\""
+
+#: automatic-translator-addon-for-loco-translate.php:312
+msgid "<div class=\"error\" style=\"padding:5px;margin-top:50px;\">Nonce verification failed! Click to <a href=\""
+msgstr "<div class=\"error\" style=\"padding:5px;margin-top:50px;\">Nonce验证失败! 请点击<a href=\"\""
+
+#: automatic-translator-addon-for-loco-translate.php:230
+msgid "In order to use <strong>%s</strong> plugin, please install and activate the latest version  of <a href=\"%s\" class=\"thickbox\" title=\"%s\">%s</a>"
+msgstr "为了使用<strong>%s</strong>插件，请安装并启用最新版本的<a href=\"%s\" class=\"hickbox\" title=\"%s\">%s</a>"
+
+#: automatic-translator-addon-for-loco-translate.php:166
+msgid "In order to use <strong>%s</strong> (version <strong>%s</strong>), Please update <a href=\"%s\" class=\"thickbox\" title=\"%s\">%s</a> official plugin to a latest version (2.4.0 or upper)"
+msgstr "为了使用<strong>%s</strong>（版本<strong>%s</strong>），请将<a href=\"%s\" class=\"thickbox\" title=\"%s\">%s</a>官方插件更新到最新版本（2.4.0或以上）"
+
+#: includes/Register/LocoAutomaticTranslateAddonPro.php:236
+msgid "✅ I agree to share my purchase code and email for plugin verification and to receive future updates notifications!"
+msgstr "✅ 我同意共享我的购买代码和电子邮件，以便进行插件验证，并接收未来的更新通知!"
+
+#: includes/Register/LocoAutomaticTranslateAddonPro.php:231
+msgid "Email Address"
+msgstr "电子邮箱地址"
+
+#: includes/Register/LocoAutomaticTranslateAddonPro.php:227
+msgid "Enter License code"
+msgstr "输入许可码"
+
+#: includes/Register/LocoAutomaticTranslateAddonPro.php:212
+msgid "Automatic Translate Addon For Loco Translate - Premium License"
+msgstr "Loco Translate 自动翻译插件 - 高级许可证"
+
+#: includes/Register/LocoAutomaticTranslateAddonPro.php:178
+msgid "Your License Key"
+msgstr "您的许可证密钥"
+
+#: includes/Register/LocoAutomaticTranslateAddonPro.php:172
+msgid "Support Expiry Date"
+msgstr "支持到期日期"
+
+#: includes/Register/LocoAutomaticTranslateAddonPro.php:165
+msgid "License Expiry Date"
+msgstr "许可证到期日期"
+
+#: includes/Register/LocoAutomaticTranslateAddonPro.php:158
+msgid "License Type"
+msgstr "许可证类型"
+
+#: includes/Register/LocoAutomaticTranslateAddonPro.php:151
+msgid "Invalid"
+msgstr "无效"
+
+#: includes/Register/LocoAutomaticTranslateAddonPro.php:149
+msgid "Valid"
+msgstr "有效"
+
+#: includes/Register/LocoAutomaticTranslateAddonPro.php:146
+msgid "License Status"
+msgstr "许可证状态"
+
+#: includes/Register/LocoAutomaticTranslateAddonPro.php:139
+msgid "Automatic Translate Addon For Loco Translate - Premium License Status"
+msgstr "Loco Translate 自动翻译插件 - 高级许可证状态"
+
+#: includes/Feedback/class.feedback-form.php:101
+msgid "I consent to having <a href=\"https://coolplugins.net\" target=\"_blank\">Cool Plugins</a> store my email-id and other information submitted via this form, they can also respond to my inquiry."
+msgstr "我同意让<a href=\"https://coolplugins.net\" target=\"_blank\">Cool Plugins</a>存储我的电子邮箱地址和通过此表单提交的其他信息，他们也可以对我的询问作出回应。"
+
+#: includes/Feedback/class.feedback-form.php:87
+msgid "If you have a moment, please share why you are deactivating this plugin."
+msgstr "如果您有时间，请分享您为什么要禁用此插件。"
+
+#: includes/Feedback/class.feedback-form.php:74
+msgid "Quick Feedback"
+msgstr "快速反馈"
+
+#: includes/Feedback/class.feedback-form.php:65
+#: includes/Feedback/class.feedback-form.php:139
+msgid "Please share the reason"
+msgstr "请分享原因"
+
+#: includes/Feedback/class.feedback-form.php:64
+#: includes/Feedback/class.feedback-form.php:138
+msgid "Other"
+msgstr "其他"
+
+#: includes/Feedback/class.feedback-form.php:60
+#: includes/Feedback/class.feedback-form.php:134
+msgid "It's a temporary deactivation"
+msgstr "临时禁用"
+
+#: includes/Feedback/class.feedback-form.php:56
+#: includes/Feedback/class.feedback-form.php:130
+msgid "The plugin is not working"
+msgstr "插件无法正常运作"
+
+#: includes/Feedback/class.feedback-form.php:53
+#: includes/Feedback/class.feedback-form.php:127
+msgid "Please share which plugin"
+msgstr "请分享插件"
+
+#: includes/Feedback/class.feedback-form.php:52
+#: includes/Feedback/class.feedback-form.php:126
+msgid "I found a better plugin"
+msgstr "我找到了更好的插件"
+
+#: includes/Feedback/class.feedback-form.php:48
+#: includes/Feedback/class.feedback-form.php:122
+msgid "The plugin didn't work as expected"
+msgstr "该插件没有按预期运作"
+
+#: includes/ReviewNotice/class.review-notice.php:71
+msgid "Not Interested"
+msgstr "不感兴趣"
+
+#: includes/ReviewNotice/class.review-notice.php:70
+msgid "I already rated it"
+msgstr "我已评级"
+
+#. Author URI of the plugin
+msgid "https://coolplugins.net/"
+msgstr "https://coolplugins.net/"
+
+#. Author of the plugin
+msgid "Cool Plugins"
+msgstr "Cool Plugins"
+
+#. Description of the plugin
+msgid "Auto language translator add-on for Loco Translate official plugin version 2.4.0 to translate plugins and themes translation files into any language via fully automatic machine translations via Yandex Translate Widget."
+msgstr "用于 Loco Translate 官方插件 2.4.0 版的自动语言翻译插件，通过 Yandex 翻译小工具的全自动机器翻译将插件和主题的翻译文件翻译成任何语言。"
+
+#. Plugin Name of the plugin
+msgid "Automatic Translate Addon For Loco Translate"
+msgstr "Loco Translate 的自动翻译扩展"

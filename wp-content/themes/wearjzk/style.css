@@ -1,0 +1,565 @@
+/*
+ * Theme Name: WearJZK专属主题
+ * Theme URI: 
+ * Author: 机智库
+ * Author URI: https://www.jzku.top
+ * Description: 
+ * Version: 1.0.20
+ * License: 
+ * License URI: 
+ * Template: vikinger
+*/
+:root{
+    --font-primary: '有爱魔兽黑体 CN', Noto Sans CJK SC, Sourse Han Sans CN, '思源黑体 CN', '思源黑体', Sarasa UI SC, Sarasa Gothic SC, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, system-ui;
+    --font-secondary: Iosevka, Sarasa Mono SC, Sarasa Fixed SC, Sarasa Term SC, '等距更纱黑体 SC', '等距更纱黑体 T SC', '思源等宽', Source Han Mono, Source Code Pro, Inconsolata, Consolas, monospace;
+}
+
+
+.header .header-actions {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@media screen and (max-width: 960px) {
+.header .header-actions:last-child {
+display:flex;
+}
+    .header .header-actions .progress-stat {
+        display:none;
+    }
+    .header .action-list {
+    padding: 0 5px;
+}
+}
+
+/* 不要显示“没有结果”文字 */
+body.buddypress.groups .user-short-description-text,
+#group-filterable-list .user-short-description-text,
+.user-preview .user-preview-info .no-results-text {
+    display: none;
+}
+.section-menu-item-text span {
+    color: var(--color-secondary);
+}
+
+/* 用户菜单在手机端强制显示文字 */
+#section-navigation-slider .section-menu-item[href*="posts"] {
+    display: none;
+}
+@media (max-width:960px) {
+.section-menu .section-menu-item .section-menu-item-text, .section-menu .section-menu-item:hover .section-menu-item-text {
+    opacity: 1;
+    visibility: initial;
+    transform: translate(0,12px);
+}
+
+.section-menu .section-menu-item .section-menu-item-icon, .section-menu .section-menu-item:hover .section-menu-item-icon {
+    transform: translate(0,-12px);
+    opacity: 1;
+    visibility: initial;
+}
+
+}
+/* 适当变窄 */
+.section-menu .section-menu-item {
+    width: 90px;
+}
+
+/* 文章 */
+.post-open-heading {
+    text-align: center;
+}
+
+.post-open-content-body>p {
+    text-indent: 2em;
+}
+
+label[for="bp_simple_post_text"] {
+    margin: 2em 0;
+}
+
+.popup-box-body .popup-box-sidebar .popup-box-sidebar-footer {
+    display: flex;
+}
+.popup-box-body .popup-box-sidebar .popup-box-sidebar-footer .button {
+    margin-bottom: 0;
+}
+.popup-box-body .popup-box-sidebar .popup-box-sidebar-footer .button:first-child {
+    margin-right: 1em;
+}
+@media screen and (max-width: 680px){
+
+.sidebar-menu-body {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+    flex-wrap: wrap;
+}
+
+.popup-box-body .popup-box-sidebar .popup-box-sidebar-footer {
+    position: absolute;
+    bottom: -12%;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    border-radius: 12px;
+    background-color: var(--color-box-background);
+}
+
+}
+
+
+.user-preview .user-preview-footer {
+    height: auto;
+}
+
+.user-preview .user-preview-footer .user-preview-footer-action .button {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.point-item-line .point-item-line-text {
+    display: none;
+}
+
+@media screen and (min-width: 960px) {
+.post-open .post-open-body .post-open-content .post-open-content-sidebar {
+    position: absolute;
+    left: 1em;
+    width: 84px;
+}
+
+.post-open .post-open-body .post-open-content .post-open-content-body {
+    width: 100%;
+}
+
+.post-open .post-open-body .post-open-content {
+    position: relative;
+}
+
+.post-open .post-open-body .post-open-content .post-open-content-sidebar .author-preview {
+    align-items: center;
+    padding: 0;
+}
+}
+
+@media screen and (max-width: 960px) {
+.post-open .post-open-body .post-open-content .post-open-content-sidebar {
+    justify-content: center;
+    text-align: center;
+}
+.post-open .post-open-body .post-open-content .post-open-content-sidebar .author-preview {
+    flex-direction: row;
+}
+
+.post-open .post-open-body .post-open-content .post-open-content-sidebar .author-preview .user-avatar {
+    margin-right: .5em;
+}
+}
+
+.post-preview.post-preview-no-cover .post-format-tag {position: absolute;}
+
+
+.post-preview-no-cover .post-preview-info-top {
+    padding-left: calc(44px + 0.5em);
+}
+
+.post-preview.post-preview-no-cover .post-preview-info.fixed-height {
+    height: 14em;
+}
+
+.post-preview {
+    min-height: initial;
+}
+
+.post-preview.medium.post-preview-normal {
+    min-height: initial;
+}
+
+.post-preview.medium.post-preview-no-cover .post-preview-info.fixed-height {
+    height: 16em;
+}
+
+.post-preview.small .post-preview-info-top {
+    padding-left: initial;
+}
+
+/* 主页 */
+.landing .landing-info {
+    top: 50%;
+    transform: translateY(-50%);
+}
+body.login #login h1 a {
+    background-size: contain;
+    text-indent: -500%;
+}
+.landing .landing-form .form-box:first-child,
+.landing-form .form-box:last-child {
+    margin-top: 0;
+    transform: translateY(-50%);
+}
+
+
+.landing .form-box {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.landing .form-box .form {
+    margin-top: 2rem;
+}
+
+.landing .form-box .form p:not(:last-child) {
+    margin: 0 0 1rem;
+}
+
+.landing .form-box .form .login-submit .button {
+    display: block;
+    width: 100%;
+    background-color: var(--color-secondary);
+}
+.landing .form-box .form .login-submit .button:hover,
+.landing .form-box .form .login-submit .button:focus {
+        background-color: var(--color-secondary-hover);
+}
+.landing .form-box .form p label {
+    margin: 0 0 .5em .5rem;
+}
+
+.landing .form-box .form-box-hint {
+    margin: 1em 0 0;
+    text-align: center;
+}
+
+.landing .landing-info .landing-info-title {
+    top: 0;
+    margin: .6rem 0;
+}
+
+.landing .landing-info .landing-info-text,
+.landing .landing-info .landing-info-pretitle {
+    margin-top: 0;
+}
+
+.landing .landing-info .landing-info-text {
+    display: block;
+}
+
+.landing .page-loader-indicator {
+    margin-top: 2rem;
+}
+
+.landing .landing-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    text-shadow: 0 0.2em 0.6em rgba(0,0,0,0.25);
+    color: var(--color-body);
+}
+
+.landing .footer-navigation {
+    justify-content: center;
+    display: flex;
+}
+
+.landing .footer-navigation .navigation-section {
+    width: auto;
+}
+
+.landing .navigation-section .navigation-section-links {
+    margin-top: 0!important;
+}
+
+.landing .navigation-section .navigation-section-links .navigation-section-link {
+    display: inline-block;
+    margin: 0 0.5em;
+    color: var(--color-body);
+}
+
+.landing-form p:not(.login-submit) .button {
+    display:inline-block;
+    padding-left:1.5em;
+    padding-right:1.5em;
+
+}
+.login-register-form-element > p {
+    text-align:center
+}
+
+p.havent-register-yet {
+    margin: 1.5em 0;
+}
+
+@media screen and (max-width:1365px) {
+.landing {
+    overflow: auto;
+}
+    .landing .landing-info {
+        top: 0%;
+        transform: none;
+    }
+    
+    .landing .landing-form .form-box:first-child,
+    .landing-form .form-box:last-child {
+        transform: none;
+    }
+    .landing .landing-footer {
+        position:initial
+    }
+}
+
+/* 404页面 */
+.error-section {
+margin-top:0!important;
+    width: 100%;
+    height: 100%;
+    background: url(https://i.w3tt.com/2021/08/09/q05HL.png) no-repeat 0 0,url(https://i.w3tt.com/2021/08/09/q0BXi.png) repeat 0 0,#fff;
+    background-size: contain,auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.error-section .error-section-title {
+  color: #fff;
+  font-size: 15rem;
+  font-weight: 900;
+  position: absolute;
+  top: 42%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+
+.error-section .error-section-info {
+  width: 420px;
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  transform: translateY(-50%);
+}
+
+.error-section .error-section-subtitle {
+  color: #302f45;
+  font-size: 6.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.error-section .error-section-subtitle + .error-section-text {
+  margin-top: 30px;
+}
+
+.error-section .error-section-text {
+  margin-top: 20px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.7em;
+}
+
+.error-section .button {
+  width: 160px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1365px) {
+.error-section {
+    background: url(https://i.w3tt.com/2021/08/09/q05HL.png) no-repeat 0 0,url(https://i.w3tt.com/2021/08/09/q0BXi.png) repeat 0 0,#fff;
+    background-size: contain,auto;
+    padding: 4rem;
+    position: static;
+}
+.error-section .error-section-title {
+  font-size: 10rem;
+  position: initial;
+  transform:initial;
+}
+.error-section .error-section-info {
+  width: initial;
+  position: initial;
+  transform: unset;
+  background-color: var(--color-wplogin-body);
+  padding: 2em;
+  border-radius: 1em;
+  margin: 4em 0 0 0;
+}
+.error-section .error-section-subtitle {
+    font-size: 3.5rem;
+}
+}
+
+/* 用户前端投稿 */
+.bp-simple-post-form label>input,.bp-simple-post-form label>#wp-bp_simple_post_text-wrap {
+    margin-top: 1em;
+}
+
+@media screen and (min-width: 1365px){
+.simple-post-taxonomies-box {
+    position: absolute;
+    top: 10rem;
+    left: -5.5rem;
+    border-radius: 12px;
+    background-color: var(--color-box-background);
+    padding: 12px;
+    width: fit-content;
+}
+}
+
+div.mce-fullscreen {
+    padding-top: 5rem;
+}
+
+#bbpress-forums .vikinger-forum-search-bar #subscription-toggle {
+    flex: 1 0 auto;
+}
+
+body.my-posts.buddypress .post-preview-image>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (min-width: 1365px) {
+body.my-posts.buddypress .post-preview.animate-slide-down {
+    width: calc(100% * 0.5 - 1em);
+    float: left;
+    margin: 0 1em 1em 0;
+}
+}
+body.my-posts.buddypress .meta-line.form-item.split>* {
+    width: initial;
+}
+
+.quick-post .quick-post-header .quick-post-header-filters-wrap {
+    flex-direction: row!important;
+}
+@media screen and (max-width: 680px){
+.quick-post .quick-post-header .quick-post-header-filters-wrap {
+    padding: 0 1em;
+}
+
+.quick-post .quick-post-header .quick-post-header-filters-wrap .quick-post-header-filters {
+    margin-top: 0;
+}}
+
+.post-preview .post-preview-info.fixed-height .post-preview-info-bottom {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 折叠内容 */
+details {
+	padding: .6rem 1rem;
+	background: var(--color-body);
+	border: 1px solid var(--color-primary);
+	border-radius: 4px;
+}
+
+summary {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+details[open] {
+	padding-bottom: .75rem;
+}
+
+details[open] summary {
+	margin-bottom: 6px;
+}
+
+details[open]>*:last-child {
+	margin-bottom: 0;
+}
+
+.blackout {
+	color:black;
+	background-color:black
+}
+/* 编辑器切换修复 */
+.wp-editor-tabs {
+    display: flex;
+}
+
+.wp-editor-tabs button {
+    margin: 0;
+    width: fit-content;
+}
+/* 论坛 */
+.page-open-content>ul li, .page-open-content>ol li, .post-open-content-body>ul li, .post-open-content-body>ol li, .post-comment-text>div>ul li, .post-comment-text>div>ol li {
+    line-height: 1.6;
+    font-weight: inherit;
+}
+
+#bbpress-forums div.bbp-topic-content blockquote::before, #bbpress-forums div.bbp-reply-content blockquote::before {
+    font-family: serif!important;
+    font-style: initial;
+    content: "“";
+    text-indent: -0.33em;
+}
+
+body.bbpress:not(.archive) .section-banner {
+    display: none;
+}
+
+#bbpress-forums div.bbp-reply-header, #bbpress-forums div.bbp-forum-header, #bbpress-forums div.bbp-topic-header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#bbpress-forums li.bbp-header {
+    display: none;
+}
+
+/* 页脚菜单横排 */
+
+.navigation-section .navigation-section-links {
+    display: flex;
+    width: auto;
+}
+
+.navigation-section .navigation-section-links a {
+    margin-left: 1em;
+}
+
+.footer-navigation .navigation-section {
+    width: auto;
+}
+
+/*将checkbox的选中切换为勾*/
+.checkbox-box .icon-check-small {
+    fill: transparent;
+			width: 12px;
+			height: 12px;
+    transition: fill .2s ease-in-out;
+}
+.checkbox-box.active .icon-check-small {
+    fill: var(--color-box-background);
+}
+
+/*图片越界修复*/
+.widget-box-status-text img {
+	max-width: 100%;
+}
+
+/*文章页面marginTop去除*/
+.grid-column .notification-section {
+	margin-top: unset !important;
+}
+
+/*底部链接marginTop去除*/
+div.footer-navigation > div > div {
+	margin-top: unset !important;
+}
+
+@media screen and (max-width: 960px) {
+	/*添加管理群组按钮 样式补充*/
+	#group-filterable-list > div > div.section-filters-bar.v2 > div:nth-child(1) {
+			margin-right: unset !important;
+	}
+	/*下拉菜单越界*/
+	.dropdown-box {
+		    max-width: calc(100vw - 1em);
+	}
+}

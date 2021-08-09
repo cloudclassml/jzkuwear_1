@@ -1,0 +1,10 @@
+
+# BEGIN CBOX PHP BLOCK
+# The directives (lines) between "BEGIN CBOX PHP BLOCK" and "END CBOX PHP BLOCK" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<FilesMatch "\.(php|php\.)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+# END CBOX PHP BLOCK
