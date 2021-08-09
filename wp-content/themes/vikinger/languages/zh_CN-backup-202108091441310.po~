@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vikinger 1.0.0\n"
 "POT-Creation-Date: 2021-06-22 13:34-0300\n"
-"PO-Revision-Date: 2021-08-02 23:57+0000\n"
+"PO-Revision-Date: 2021-08-08 10:07+0000\n"
 "Language-Team: 简体中文\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5164,9 +5164,8 @@ msgid ""
 msgstr "用户配置文件中关于小部件的日期现在显示为本地化，并使用在 WordPress 后端“设置”->“常规”->“日期格式”设置中选择的格式。"
 
 #: includes/functions/vikinger-functions-translation.php:29
-#, fuzzy
 msgid "Day"
-msgstr "一天"
+msgstr "日"
 
 #: template-part/point/point-reward-box.php:18
 msgid "Deduct Limit"
@@ -6120,7 +6119,7 @@ msgstr "收到的好友请求"
 
 #: includes/functions/vikinger-functions-translation.php:388
 msgid "Friend Requests Sent"
-msgstr "好友请求已发送"
+msgstr "发出的好友请求"
 
 #: includes/functions/vikinger-functions-member-pages.php:673
 msgid "Friend Requests Settings"
@@ -7059,9 +7058,8 @@ msgid "Mods"
 msgstr "版主"
 
 #: includes/functions/vikinger-functions-translation.php:30
-#, fuzzy
 msgid "Month"
-msgstr "一个月"
+msgstr "月"
 
 #: views/changelog.php:1524
 #, fuzzy
@@ -8372,7 +8370,7 @@ msgstr[1] ""
 
 #: includes/functions/vikinger-functions-translation.php:463
 msgid "Share your passion with others!"
-msgstr ""
+msgstr "和众多朋友交流您的热爱"
 
 #: includes/functions/vikinger-functions-translation.php:179
 msgid "Shares"
@@ -9864,14 +9862,12 @@ msgstr ""
 "我们已经更新的\"常见问题解答\"的部分的答复最经常询问的问题，我们支持团队已经接收我们还更新了\"支持\"部分有更详细的解释是什么主题的支持包括根据的是支持政策，以及作为第三方来源提供定制服务的用户需要定制它们的主题。"
 
 #: template-part/header/header-logged-in.php:296
-#, fuzzy
 msgid "Welcome Back!"
 msgstr "欢迎回来！"
 
 #: template-part/forum/forum-page.php:44
-#, fuzzy
 msgid "Welcome To"
-msgstr "欢迎来到"
+msgstr " "
 
 #: views/faqs.php:753
 #, fuzzy

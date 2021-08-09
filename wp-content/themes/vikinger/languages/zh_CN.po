@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vikinger 1.0.0\n"
 "POT-Creation-Date: 2021-06-22 13:34-0300\n"
-"PO-Revision-Date: 2021-08-08 10:07+0000\n"
+"PO-Revision-Date: 2021-08-09 14:41+0000\n"
 "Language-Team: 简体中文\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -322,11 +322,11 @@ msgstr ""
 "%s新一代的WordPress+Buddypress社区主题！%s通过完整的个人资料、反应、小组、徽章、任务、等级、积分和%s更多的内容%s让你与你的朋友联系在一起！"
 
 #: includes/functions/vikinger-functions-member-pages.php:846
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "%sWarning:%s deleting your account will delete all of the content you have "
 "created. It will be completely irrecoverable."
-msgstr "%sWarning:%s删去你的帐户，将删除所有的内容你必须创建的。 这将是完全无法收回的。"
+msgstr "%sWarning:%s删除你的帐户，将删除你创建的所有的内容。 这将是无法撤回的。"
 
 #: views/support.php:442
 #, php-format
@@ -417,10 +417,9 @@ msgid "Media upload post"
 msgstr "媒体上传后"
 
 #: includes/functions/vikinger-functions-activity.php:1080
-#, fuzzy
 msgctxt "(Backend) Activity Share Action - Description"
 msgid "Shared an activity"
-msgstr "共享一个活动"
+msgstr "分享了一个活动"
 
 #: includes/functions/vikinger-functions-activity.php:1082
 msgctxt "(Backend) Activity Share Action - Label"
@@ -428,10 +427,9 @@ msgid "Activity Share"
 msgstr "分享动态"
 
 #: includes/functions/vikinger-functions-activity.php:1095
-#, fuzzy
 msgctxt "(Backend) Activity Share Group Action - Description"
 msgid "Shared an activity"
-msgstr "共享一个活动"
+msgstr "分享了一个活动"
 
 #: includes/functions/vikinger-functions-activity.php:1097
 msgctxt "(Backend) Activity Share Group Action - Label"
@@ -549,10 +547,9 @@ msgid "Side Menu"
 msgstr "左侧菜单"
 
 #: includes/functions/vikinger-functions-activity.php:1136
-#, fuzzy
 msgctxt "(Backend) Post Share Action - Description"
 msgid "Shared a blog post"
-msgstr "共享一个博客"
+msgstr "分享了一篇博文"
 
 #: includes/functions/vikinger-functions-activity.php:1138
 msgctxt "(Backend) Post Share Action - Label"
@@ -560,10 +557,9 @@ msgid "Post Share"
 msgstr "帖子分享"
 
 #: includes/functions/vikinger-functions-activity.php:1151
-#, fuzzy
 msgctxt "(Backend) Post Share Group Action - Description"
 msgid "Shared a blog post"
-msgstr "共享一个博客"
+msgstr "分享了一篇博文"
 
 #: includes/functions/vikinger-functions-activity.php:1153
 msgctxt "(Backend) Post Share Group Action - Label"
@@ -2000,10 +1996,9 @@ msgid "Group Page Header - Title"
 msgstr "组页标题-标题"
 
 #: includes/customizer/vikinger-customizer-groups.php:28
-#, fuzzy
 msgctxt "(Customizer) Groups Default Avatar - Description"
 msgid "Default avatar assigned to groups."
-msgstr "默认的化身分配给小组。"
+msgstr "分配给圈子小组的默认头像。"
 
 #: includes/customizer/vikinger-customizer-groups.php:27
 #, fuzzy
@@ -2012,10 +2007,9 @@ msgid "Groups Default Avatar"
 msgstr "组默认的化身"
 
 #: includes/customizer/vikinger-customizer-groups.php:43
-#, fuzzy
 msgctxt "(Customizer) Groups Default Cover - Description"
 msgid "Default cover assigned to groups."
-msgstr "默认的复盖分配给小组。"
+msgstr "默认分配给圈子的封面图。"
 
 #: includes/customizer/vikinger-customizer-groups.php:42
 #, fuzzy
@@ -2263,10 +2257,9 @@ msgid "Member Page Header - Title"
 msgstr "成员页标题 - 标题"
 
 #: includes/customizer/vikinger-customizer-members.php:28
-#, fuzzy
 msgctxt "(Customizer) Members Default Avatar - Description"
 msgid "Default avatar assigned to members."
-msgstr "默认的化身分配给成员。"
+msgstr "分配给成员的默认头像。"
 
 #: includes/customizer/vikinger-customizer-members.php:27
 msgctxt "(Customizer) Members Default Avatar - Title"
@@ -2274,10 +2267,9 @@ msgid "Members Default Avatar"
 msgstr "成员默认的头像"
 
 #: includes/customizer/vikinger-customizer-members.php:43
-#, fuzzy
 msgctxt "(Customizer) Members Default Cover - Description"
 msgid "Default cover assigned to members."
-msgstr "默认的复盖分配给成员。"
+msgstr "分配给成员的默认封面。"
 
 #: includes/customizer/vikinger-customizer-members.php:42
 msgctxt "(Customizer) Members Default Cover - Title"
@@ -2524,10 +2516,9 @@ msgid ""
 msgstr "禁用这个选项中删除照片上传有关的功能和网页。"
 
 #: includes/customizer/vikinger-customizer-media.php:30
-#, fuzzy
 msgctxt "(Customizer) Photo Upload Option - Status - Title"
 msgid "Photo Upload - Status"
-msgstr "照片上传的状况"
+msgstr "图片上传的状况"
 
 #: includes/customizer/vikinger-customizer-pageheader-point.php:60
 #, fuzzy
@@ -2991,10 +2982,9 @@ msgid "If enabled, blog posts are displayed on search."
 msgstr "如果启用，博客上显示搜索。"
 
 #: includes/customizer/vikinger-customizer-search.php:48
-#, fuzzy
 msgctxt "(Customizer) Search Option - Show blog posts in search - Title"
 msgid "Show blog posts in search"
-msgstr "展示博文在搜索"
+msgstr "在搜索中显示博客文章"
 
 #: includes/customizer/vikinger-customizer-search.php:81
 #, fuzzy
@@ -3003,10 +2993,9 @@ msgid "If enabled, groups are displayed on search."
 msgstr "如果启用，组都显示在搜索。"
 
 #: includes/customizer/vikinger-customizer-search.php:80
-#, fuzzy
 msgctxt "(Customizer) Search Option - Show groups in search - Title"
 msgid "Show groups in search"
-msgstr "显示团在搜索"
+msgstr "在搜索中显示圈子"
 
 #: includes/customizer/vikinger-customizer-search.php:65
 #, fuzzy
@@ -3015,10 +3004,9 @@ msgid "If enabled, members are displayed on search."
 msgstr "如果启用，成员显示在搜索。"
 
 #: includes/customizer/vikinger-customizer-search.php:64
-#, fuzzy
 msgctxt "(Customizer) Search Option - Show members in search - Title"
 msgid "Show members in search"
-msgstr "显示成员在搜索"
+msgstr "在搜索中显示成员"
 
 #: includes/customizer/vikinger-customizer-pageheader-search.php:44
 #, fuzzy
@@ -3320,7 +3308,6 @@ msgstr ""
 "一个迷你车已被添加到头，它允许用户快速访问查和删除项目从他们的车从任何网页的网站。 我们还加入一些指标的微型车，使用户能够快速看看车是空的或有项目。"
 
 #: views/changelog.php:1648
-#, fuzzy
 msgid ""
 "A new \"Videos\" page has been added to the members and groups profile pages "
 "to display the videos that the user has uploaded to his profile and group "
@@ -3328,8 +3315,7 @@ msgid ""
 "upload and delete videos that they have uploaded through status updates or "
 "direct upload through this page."
 msgstr ""
-"一个新的\"视频\"页面已经增加成员和团体的个人资料页面显示影片的用户已上载到他的轮廓和小组的成员已经上传到该组。 "
-"从\"视频\"页面，用户可以上载和删除的影片，他们已经上传，通过将状态更新或直接上载，通过这个网页。"
+"新的“视频”页面已添加到成员和群组个人资料页面，以显示用户已上传到其个人资料和群组成员已上传到该群组的视频。在“视频”页面，用户可以上传和删除他们通过状态更新上传的视频或通过该页面直接上传。"
 
 #: views/changelog.php:1652
 msgid ""
@@ -3552,10 +3538,9 @@ msgid "uploaded a photo"
 msgstr "上传了照片"
 
 #: includes/functions/vikinger-functions-activity.php:900
-#, fuzzy
 msgctxt "Activity Media Action Group - Text"
 msgid "uploaded a photo in the group"
-msgstr "上传照片的小组"
+msgstr "在圈子里上传了一张照片"
 
 #: includes/functions/vikinger-functions-activity.php:831
 msgctxt "Activity Media Update Action - Text"
@@ -3573,10 +3558,9 @@ msgid "uploaded photos"
 msgstr "上传图片"
 
 #: includes/functions/vikinger-functions-activity.php:788
-#, fuzzy
 msgctxt "Activity Media Upload Action Group - Text"
 msgid "uploaded photos in the group"
-msgstr "上传照片的小组"
+msgstr "在圈子里上传了一张照片"
 
 #: buddypress/activity/index.php:24
 #: includes/customizer/vikinger-customizer-pageheader-activity.php:55
@@ -3591,16 +3575,14 @@ msgid "Newsfeed"
 msgstr "广场"
 
 #: includes/functions/vikinger-functions-activity.php:1111
-#, fuzzy
 msgctxt "Activity Share - Text"
 msgid "shared a post"
-msgstr "共享一个员额"
+msgstr "分享了一篇博文"
 
 #: includes/functions/vikinger-functions-activity.php:1124
-#, fuzzy
 msgctxt "Activity Share Group - Text"
 msgid "shared a post in the group"
-msgstr "共享一个员额在组"
+msgstr "在圈子中分享了一篇帖子"
 
 #: views/changelog.php:1736
 #, fuzzy
@@ -4458,7 +4440,7 @@ msgstr "徽章"
 #: page_badges.php:40
 msgctxt "Badges Page - Description"
 msgid "Browse all the badges of the community!"
-msgstr "浏览社区的所有徽章!"
+msgstr "查看社区的所有徽章!"
 
 #: includes/customizer/vikinger-customizer-pageheader-badge.php:39
 #: page_badges.php:39
@@ -4537,7 +4519,7 @@ msgstr "博客的改进"
 #: tag.php:26 template-part/post/post-open-v3.php:37
 msgctxt "Blog Page - Description"
 msgid "Read about news, announcements and more!"
-msgstr "阅读有关新闻、公告和更多信息!"
+msgstr "阅读我们的新闻、公告和更多信息!"
 
 #: category.php:25
 #: includes/customizer/vikinger-customizer-pageheader-blog.php:39 index.php:23
@@ -4937,15 +4919,13 @@ msgstr "继续"
 
 #: includes/elementor/vikinger-functions-elementor-widget.php:292
 #: includes/elementor/vikinger-functions-elementor-widget.php:325
-#, fuzzy
 msgid "Controls icon color."
-msgstr "控制标颜色。"
+msgstr "控制图标颜色。"
 
 #: includes/elementor/vikinger-functions-elementor-widget.php:282
 #: includes/elementor/vikinger-functions-elementor-widget.php:315
-#, fuzzy
 msgid "Controls icon size."
-msgstr "控制标尺寸。"
+msgstr "控制图标尺寸。"
 
 #: includes/elementor/vikinger-functions-elementor-widget.php:365
 msgid "Controls menu background color."
@@ -4982,29 +4962,24 @@ msgid "Controls title text color."
 msgstr "控制标题文字颜色。"
 
 #: bbpress/form-topic-split.php:183
-#, fuzzy
 msgid "Copy favoriters to the new topic"
-msgstr "复制favoriters到新的话题"
+msgstr "复制favoriters到新的主题"
 
 #: bbpress/form-topic-split.php:154
-#, fuzzy
 msgid "Copy subscribers to the new topic"
-msgstr "复制订的新的主题"
+msgstr "将订阅者复制到新主题"
 
 #: bbpress/form-topic-split.php:212
-#, fuzzy
 msgid "Copy topic tags to the new topic"
-msgstr "副本专题的标签的新的主题"
+msgstr "将主题标签复制到新主题"
 
 #: includes/functions/vikinger-functions-translation.php:408
-#, fuzzy
 msgid "Couldn't change password. Please try again later"
-msgstr "不能改变密码。 请稍后再试"
+msgstr "不能更改密码， 请稍后再试"
 
 #: includes/functions/vikinger-functions-translation.php:345
-#, fuzzy
 msgid "Cover Upload Error"
-msgstr "盖上的错误"
+msgstr "上传封面图出错"
 
 #: includes/functions/vikinger-functions-translation.php:461
 msgid "Create Group!"
@@ -5066,9 +5041,8 @@ msgid "Credits"
 msgstr "积分中心"
 
 #: template-part/point/point-item-line-list.php:34
-#, fuzzy
 msgid "Current Balance"
-msgstr "目前的平衡"
+msgstr "当前余额"
 
 #: includes/customizer/vikinger-customizer-color-presets.php:32
 #: includes/customizer/vikinger-customizer-color-presets.php:77
@@ -5212,9 +5186,8 @@ msgid ""
 msgstr "解散圈子将会导致该圈子里的所有内容（如帖子等）全部消失，该操作无法撤销！"
 
 #: bbpress/form-topic-tag.php:136
-#, fuzzy
 msgid "Deleting a tag cannot be undone."
-msgstr "删除标记的不可撤消。"
+msgstr "删除标签无法撤消。"
 
 #: views/changelog.php:3102
 #, fuzzy
@@ -5231,9 +5204,8 @@ msgstr "正在删除..."
 
 #: views/changelog.php:2180 views/demo-import.php:25 views/demo-import.php:54
 #: views/index.php:409
-#, fuzzy
 msgid "Demo Import"
-msgstr "演示进口"
+msgstr "演示导入"
 
 #: includes/functions/vikinger-functions-translation.php:284
 msgid "Demote to Member"
@@ -5248,9 +5220,8 @@ msgid "Descending"
 msgstr "降序"
 
 #: bbpress/form-topic-tag.php:68
-#, fuzzy
 msgid "Description:"
-msgstr "说明："
+msgstr "描述说明："
 
 #: bbpress/form-topic-merge.php:48
 #, fuzzy
@@ -6134,9 +6105,8 @@ msgid "Friends"
 msgstr "朋友"
 
 #: includes/functions/vikinger-functions-translation.php:183
-#, fuzzy
 msgid "Friendships"
-msgstr "友谊"
+msgstr "好友关系"
 
 #: views/demo-import.php:67
 #, fuzzy, php-format
@@ -6365,7 +6335,7 @@ msgstr ""
 #: includes/customizer/vikinger-customizer-pageheader-group.php:55
 msgctxt "Groups Page - Description"
 msgid "Browse all the groups of the community!"
-msgstr "浏览社区的所有圈子!"
+msgstr "查看社区的所有圈子!"
 
 #: buddypress/groups/index.php:23
 #: includes/customizer/vikinger-customizer-pageheader-group.php:39
@@ -6964,7 +6934,7 @@ msgstr "成员现在可以删除他们的上载的形象和复盖图像的档案
 #: includes/customizer/vikinger-customizer-pageheader-member.php:55
 msgctxt "Members Page - Description"
 msgid "Browse all the members of the community!"
-msgstr "浏览社区的所有成员!"
+msgstr "查看社区的所有成员!"
 
 #: buddypress/members/index.php:23
 #: includes/customizer/vikinger-customizer-pageheader-member.php:39
@@ -7452,9 +7422,8 @@ msgid "Password Settings"
 msgstr "密码设置"
 
 #: includes/functions/vikinger-functions-translation.php:554
-#, fuzzy
 msgid "Passwords don't match, please enter the same password in both fields"
-msgstr "密码不匹配，请输入密码相同，在这两个领域"
+msgstr "密码不匹配，请确定两次输入密码相同"
 
 #: includes/functions/vikinger-functions-translation.php:513
 #, fuzzy
@@ -7548,14 +7517,12 @@ msgid "Pinterest."
 msgstr "Pinterest"
 
 #: includes/functions/vikinger-functions-translation.php:163
-#, fuzzy
 msgid "Please add a photo to upload!"
-msgstr "请添加一张照片上传!"
+msgstr "请添加一张图片以上传!"
 
 #: includes/functions/vikinger-functions-translation.php:164
-#, fuzzy
 msgid "Please add a video to upload!"
-msgstr "请添加一个视频传!"
+msgstr "请添加要上传的视频！"
 
 #: views/faqs.php:521
 #, fuzzy, php-format
@@ -7676,16 +7643,14 @@ msgid "Post Reply"
 msgstr "发布评论"
 
 #: includes/functions/vikinger-functions-activity.php:1167
-#, fuzzy
 msgctxt "Post Share Action - Text"
 msgid "shared a post"
-msgstr "共享一个员额"
+msgstr "分享了一篇帖子"
 
 #: includes/functions/vikinger-functions-activity.php:1180
-#, fuzzy
 msgctxt "Post Share Action Group - Text"
 msgid "shared a post in the group"
-msgstr "共享一个员额在组"
+msgstr "在圈子中分享了一篇帖子"
 
 #: includes/functions/vikinger-functions-notification.php:241
 #, fuzzy, php-format
@@ -8400,18 +8365,16 @@ msgid "Shopping Cart"
 msgstr "购物车"
 
 #: includes/functions/vikinger-functions-translation.php:480
-#, fuzzy
 msgid "Should this group have a forum?"
-msgstr "应该这组有一个论坛？"
+msgstr "这个圈子需要有论坛吗？"
 
 #: includes/functions/vikinger-functions-translation.php:176
 msgid "Show"
 msgstr "显示"
 
 #: views/changelog.php:1896
-#, fuzzy
 msgid "Show blog posts in search"
-msgstr "展示博文在搜索"
+msgstr "在搜索中显示博客文章"
 
 #: includes/functions/vikinger-functions-translation.php:116
 msgctxt "show everything"
@@ -8419,19 +8382,16 @@ msgid "All"
 msgstr "所有"
 
 #: views/changelog.php:1912
-#, fuzzy
 msgid "Show groups in search"
-msgstr "显示团在搜索"
+msgstr "在搜索中显示圈子"
 
 #: views/changelog.php:1904
-#, fuzzy
 msgid "Show members in search"
-msgstr "显示成员在搜索"
+msgstr "在搜索中显示成员"
 
 #: includes/functions/vikinger-functions-translation.php:207
-#, fuzzy
 msgid "Show More"
-msgstr "显示出更多的"
+msgstr "显示更多"
 
 #: includes/functions/vikinger-functions-translation.php:80
 msgctxt "showing n results \"out of\" m total"
@@ -8446,18 +8406,16 @@ msgid ""
 msgstr "侧的菜单现在的状态是保存记录用户，剩下的开放或关闭根据最新的用户选择。"
 
 #: includes/functions/vikinger-functions-translation.php:166
-#, fuzzy
 msgid "size is too big!"
-msgstr "尺寸太大了！"
+msgstr "文件或尺寸过大！"
 
 #: woocommerce/single-product/meta.php:30
 msgid "SKU:"
 msgstr "SKU:"
 
 #: bbpress/form-topic-tag.php:57
-#, fuzzy
 msgid "Slug:"
-msgstr "弹头："
+msgstr "Slug:"
 
 #: views/changelog.php:3951
 #, fuzzy
@@ -8475,9 +8433,8 @@ msgid "Social Networks"
 msgstr "社交网络"
 
 #: includes/functions/vikinger-functions-member-pages.php:541
-#, fuzzy
 msgid "Social Settings"
-msgstr "社会设置"
+msgstr "社交设置"
 
 #: views/faqs.php:561
 #, php-format
@@ -9005,9 +8962,9 @@ msgstr ""
 "//codex.wordpress.org/Customizing_the_Login_Form#Styling_Your_Login%s"
 
 #: bbpress/form-reply.php:291
-#, fuzzy, php-format
+#, php-format
 msgid "The topic &#8216;%s&#8217; is closed to new replies."
-msgstr "主题'%s'封闭到的新的答复。"
+msgstr "主题'%s'关闭了新回复。"
 
 #: views/changelog.php:1964
 #, fuzzy
@@ -9033,9 +8990,8 @@ msgid "There are a total of 7 presets:"
 msgstr "总共有7个预设："
 
 #: bbpress/form-topic-merge.php:85
-#, fuzzy
 msgid "There are no other topics in this forum to merge with."
-msgstr "有没有其他议题，在这个论坛合并。"
+msgstr "本论坛中没有其他主题可以合并。"
 
 #: includes/functions/vikinger-functions-translation.php:320
 msgid "There aren't any uploaded photos!"
@@ -9081,9 +9037,8 @@ msgid ""
 msgstr "这将创建的问题，如果用户需要编辑组或域名翻译目的，作为该主题不可能找到和显示该集团或领域的信息，如果该名称是不是期待。"
 
 #: bbpress/form-topic-tag.php:131
-#, fuzzy
 msgid "This does not delete your topics. Only the tag itself is deleted."
-msgstr "这并不是你删除的议题。 只有标记本身也被删除。"
+msgstr "这不会删除您的主题。仅删除标签本身。"
 
 #: includes/functions/vikinger-functions-bbpress.php:118
 #, php-format
@@ -9106,22 +9061,20 @@ msgid "This forum has %1$s."
 msgstr "该板块有%1$s。"
 
 #: bbpress/form-reply.php:51
-#, fuzzy
 msgid ""
 "This forum is closed to new content, however your posting capabilities still "
 "allow you to post."
-msgstr "这个论坛是关闭以新的内容，但是你发布能力，还能让你向后。"
+msgstr "本论坛不接受新内容，但您的发帖权限仍然允许您发帖。"
 
 #: includes/functions/vikinger-functions-bbpress.php:128
 msgid "This forum is empty."
 msgstr "这个板块空空如也。"
 
 #: bbpress/form-topic.php:72
-#, fuzzy
 msgid ""
 "This forum is marked as closed to new topics, however your posting "
 "capabilities still allow you to create a topic."
-msgstr "这个论坛被标记为封闭的新专题，但是你的帐的能力仍然允许您可以创建一个主题。"
+msgstr "该论坛被标记为对新主题关闭，但是您的发帖权限仍然允许您创建主题。"
 
 #: buddypress/groups/single/activity.php:85
 msgid "This group doesn't have any moderators"
@@ -9183,11 +9136,10 @@ msgid "This topic is empty."
 msgstr "这个帖子是空的。这怎么可能？"
 
 #: bbpress/form-reply.php:41
-#, fuzzy
 msgid ""
 "This topic is marked as closed to new replies, however your posting "
 "capabilities still allow you to reply."
-msgstr "这个专题的标记为封闭的新的回复，但是你的帐的能力仍然能让你来回答。"
+msgstr "此主题已标记为禁止新回复，但您的发帖权限仍允许您回复。"
 
 #: includes/functions/vikinger-functions-bbpress.php:175
 msgid "This topic is pending moderation."
@@ -9458,9 +9410,8 @@ msgid "Active"
 msgstr "启用"
 
 #: views/changelog.php:1924
-#, fuzzy
 msgid "User Avatar Improvements"
-msgstr "用户的改进的化身"
+msgstr "用户头像改进"
 
 #: views/changelog.php:1124
 #, fuzzy
@@ -9481,9 +9432,8 @@ msgid "Username"
 msgstr "用户名"
 
 #: includes/functions/vikinger-functions-translation.php:555
-#, fuzzy
 msgid "Username already exists!, please select another one"
-msgstr "用户名已经存在!, 请选择另外一个"
+msgstr "用户名已经存在，请另外选择一个！"
 
 #: includes/functions/vikinger-functions-translation.php:539
 #, fuzzy
@@ -9491,11 +9441,10 @@ msgid "Username or Email"
 msgstr "用户名或电子邮件"
 
 #: views/changelog.php:1880
-#, fuzzy
 msgid ""
 "Users can now choose to hide the header search input by using the \"Display "
 "/ Hide\" option."
-msgstr "用户现在可以选择隐藏头搜索输入通过使用\"显示\"选项。"
+msgstr "用户现在可以选择使用“显示/隐藏”选项隐藏标题搜索输入。"
 
 #: views/changelog.php:2088
 #, fuzzy
@@ -10376,19 +10325,19 @@ msgid ""
 msgstr "你需要加入圈子才能看到其内容。如果你有兴趣加入这个圈子，请发送一个申请，并等待批准！"
 
 #: includes/functions/vikinger-functions-notification.php:158
-#, fuzzy, php-format
+#, php-format
 msgid "You were %sinvited%s to join the group %s"
-msgstr "你%sinvited%s加入该组%s"
+msgstr "你%sinvited%s加入该圈子%s"
 
 #: includes/functions/vikinger-functions-notification.php:206
-#, fuzzy, php-format
+#, php-format
 msgid "You were %spromoted%s to %sadmin%s in the group %s"
-msgstr "你%spromoted%s%sadmin%s组%s"
+msgstr "你%spromoted%s%sadmin%s圈子%s"
 
 #: includes/functions/vikinger-functions-notification.php:196
-#, fuzzy, php-format
+#, php-format
 msgid "You were %spromoted%s to %smod%s in the group %s"
-msgstr "你%spromoted%s%smod%s组%s"
+msgstr "你%spromoted%s%smod%s圈子%s"
 
 #: views/changelog.php:99 views/changelog.php:415 views/changelog.php:520
 #: views/changelog.php:632 views/changelog.php:750 views/changelog.php:903

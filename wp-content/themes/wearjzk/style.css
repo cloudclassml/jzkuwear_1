@@ -4,7 +4,7 @@
  * Author: 机智库
  * Author URI: https://www.jzku.top
  * Description: 
- * Version: 1.0.20
+ * Version: 1.0.21
  * License: 
  * License URI: 
  * Template: vikinger
@@ -12,6 +12,57 @@
 :root{
     --font-primary: '有爱魔兽黑体 CN', Noto Sans CJK SC, Sourse Han Sans CN, '思源黑体 CN', '思源黑体', Sarasa UI SC, Sarasa Gothic SC, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, system-ui;
     --font-secondary: Iosevka, Sarasa Mono SC, Sarasa Fixed SC, Sarasa Term SC, '等距更纱黑体 SC', '等距更纱黑体 T SC', '思源等宽', Source Han Mono, Source Code Pro, Inconsolata, Consolas, monospace;
+}
+
+.footer-info-brand .footer-info-brand-subtitle,
+.user-status .user-status-text,
+#bbpress-forums li.bbp-header,
+#member-filterable-list .user-short-description .user-short-description-text a,
+.user-short-description.big .user-short-description-text,
+.no-results-text,
+.simplebar-wrapper .user-short-description .user-short-description-text,
+.section-header-info .section-pretitle{
+    font-weight:300;
+}
+
+.sidebar-menu-header .sidebar-menu-header-text,
+.section-banner .section-banner-text,
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea, select, button,.button,
+.notification-section .notification-section-text,
+.progress-stat .bar-progress-wrap .bar-progress-info,
+.dropdown-navigation .dropdown-navigation-link,
+.sidebar-menu-body .sidebar-menu-link,
+.menu .menu-item .menu-item-link,
+.user-status .user-status-title,
+.widget-box .widget-box-status .widget-box-status-html-content,
+.meta-line .meta-line-text,
+.widget-box .widget-box-status .widget-box-status-text,
+.simple-dropdown .simple-dropdown-link,
+.achievement-preview .achievement-preview-info .achievement-preview-text,
+.point-item .point-item-text,
+#bbpress-forums li.bbp-body ul.topic li.bbp-topic-title .bbp-topic-meta,
+#bbpress-forums li.bbp-body .bbp-forum-topic-count, #bbpress-forums li.bbp-body .bbp-forum-reply-count, #bbpress-forums li.bbp-body .bbp-topic-voice-count, #bbpress-forums li.bbp-body .bbp-topic-reply-count,
+#bbpress-forums #message ul li, #bbpress-forums div.bbp-template-notice ul li,
+#bbpress-forums div.bbp-topic-content p, #bbpress-forums div.bbp-reply-content p,
+.user-stat .user-stat-text,
+.point-item-line .point-item-line-title,
+.quick-filters .quick-filters-tabs .quick-filters-tab,
+.information-line .information-line-title, .information-line .information-line-text,
+.page-open-content>p, .post-open-content-body>p, .post-comment-text>div>p,
+.post-open .post-open-heading .post-open-timestamp,
+.navigation-widget .navigation-widget-section-menu .navigation-widget-section-menu-item .navigation-widget-section-menu-item-link,
+.post-preview .post-preview-info .post-preview-text,
+.point-item-box .point-item-box-text, 
+.point-reward-box .point-reward-box-info .point-reward-box-text，
+.achievement-item-box .achievement-item-box-footer .achievement-item-box-footer-title,
+.achievement-item-box .achievement-item-box-text{
+    font-weight: 400;
+}
+.sidebar-menu-body .sidebar-menu-link.active,
+.button.secondary,
+.button.primary,
+.quick-filters .quick-filters-tabs .quick-filters-tab.active {
+    font-weight:700;
 }
 
 
